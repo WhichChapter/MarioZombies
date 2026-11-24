@@ -55,7 +55,6 @@ def log(message):
 
 def fail(message):
     print(f"\n[ERROR] {message}", flush=True)
-    input("\nPress Enter to exit...")
     sys.exit(1)
 
 
@@ -113,15 +112,6 @@ if not OBJ_FILE.is_file():
 if not OBJ_FILE.is_file():
     fail(f"Could not find OBJ: {OBJ_FILE}")
 
-if not PK3_FILE.is_file():
-    fail(f"Could not find NZP archive: {PK3_FILE}")
-
-if not WAD_FILE.is_file():
-    fail(
-        f"Texture WAD not found: {WAD_FILE}\n"
-        "Run build_textures.py first."
-    )
-
 BUILD.mkdir(parents=True, exist_ok=True)
 TOOLS.mkdir(parents=True, exist_ok=True)
 
@@ -131,7 +121,10 @@ print("=" * 68)
 
 log(f"OBJ: {OBJ_FILE}")
 log(f"WAD: {WAD_FILE}")
-log(f"Archive: {PK3_FILE}")
+if PK3_FILE.is_file():
+    log(f"NZP archive available (not modified): {PK3_FILE}")
+else:
+    log("NZP archive not present; standalone BSP compilation does not require it.")
 
 
 # ============================================================
@@ -139,10 +132,27 @@ log(f"Archive: {PK3_FILE}")
 # ============================================================
 
 def find_hltools():
-    existing = list(TOOLS.rglob("hltools.exe"))
+    executable = "hltools.exe" if sys.platform == "win32" else "hltools"
+    existing = [
+        path for path in TOOLS.rglob(executable)
+        if path.is_file()
+    ]
 
     if existing:
-        return existing[0]
+        compiler = existing[0]
+
+        if sys.platform != "win32":
+            compiler.chmod(compiler.stat().st_mode | 0o111)
+
+        return compiler
+
+    # Codespaces and other Linux environments must use a native build.
+    # The devcontainer setup script builds and installs it here.
+    if sys.platform != "win32":
+        fail(
+            "Native Linux hltools compiler not found.\n"
+            "Run: bash .devcontainer/setup.sh"
+        )
 
     log("Checking hltools nightly release...")
 
@@ -209,9 +219,27 @@ def find_hltools():
 
     return matches[0]
 
-
 COMPILER = find_hltools()
 log(f"Compiler: {COMPILER}")
+
+if not WAD_FILE.is_file():
+    texture_script = ROOT / "build_textures.py"
+
+    if not texture_script.is_file():
+        fail(f"Texture builder not found: {texture_script}")
+
+    log("Texture WAD is missing; generating it now...")
+    try:
+        subprocess.run(
+            [sys.executable, str(texture_script)],
+            cwd=ROOT,
+            check=True,
+        )
+    except subprocess.CalledProcessError as error:
+        fail(f"Texture generation failed with exit code {error.returncode}.")
+
+if not WAD_FILE.is_file():
+    fail(f"Texture WAD was not created: {WAD_FILE}")
 
 
 # ============================================================
@@ -805,4 +833,3 @@ print("\nThis remains a geometry prototype.")
 print("NZP gameplay entities and navigation are not yet integrated.")
 
 print("=" * 68)
-input("\nPress Enter to close...")
