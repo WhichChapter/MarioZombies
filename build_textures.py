@@ -9,7 +9,7 @@ TOOLS = ROOT / "figure8_tools"
 BUILD = ROOT / "figure8_build"
 BMP_DIR = BUILD / "indexed_textures"
 WAD_FILE = BUILD / "figure8_textures.wad"
-COMPILER = TOOLS / "hltools.exe"
+COMPILER = TOOLS / ("hltools.exe" if sys.platform == "win32" else "hltools")
 
 
 def require_pillow():
@@ -32,8 +32,14 @@ def nearest_multiple_of_16(value):
 def main():
     Image = require_pillow()
 
-    if not COMPILER.exists():
-        raise FileNotFoundError(f"Compiler not found: {COMPILER}")
+    if not COMPILER.is_file():
+        raise FileNotFoundError(
+            f"Compiler not found: {COMPILER}. "
+            "In Codespaces run: bash .devcontainer/setup.sh"
+        )
+
+    if sys.platform != "win32":
+        COMPILER.chmod(COMPILER.stat().st_mode | 0o111)
 
     pngs = sorted(SOURCE.glob("*.png"))
     if not pngs:
