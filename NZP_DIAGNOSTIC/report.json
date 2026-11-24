@@ -1,0 +1,4707 @@
+{
+  "project": {
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline": true,
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\nzp": true,
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\nzp\\game.pk3": true,
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\default.fmf": true,
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\ftewebgl.js": true,
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\ftewebgl.wasm": true,
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\map_work": true,
+    "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\map_work\\maps": true
+  },
+  "warehouse_bsp": {
+    "exists": true,
+    "path": "C:\\Users\\reube\\Music\\WAW\\map_work\\maps\\nzp_warehouse.bsp",
+    "size_bytes": 645992,
+    "size_mb": 0.616,
+    "sha256": "715e3654055c8b3bc29352b3b7167399c9e768a968069f19e8e5e9bf26e6b5b3",
+    "version": 30,
+    "lumps": [
+      {
+        "name": "Entities",
+        "offset": 482456,
+        "length": 34737,
+        "valid": true
+      },
+      {
+        "name": "Planes",
+        "offset": 124,
+        "length": 25940,
+        "valid": true
+      },
+      {
+        "name": "Textures",
+        "offset": 517196,
+        "length": 128796,
+        "valid": true
+      },
+      {
+        "name": "Vertices",
+        "offset": 46448,
+        "length": 29820,
+        "valid": true
+      },
+      {
+        "name": "Visibility",
+        "offset": 480968,
+        "length": 1488,
+        "valid": true
+      },
+      {
+        "name": "Nodes",
+        "offset": 76268,
+        "length": 24456,
+        "valid": true
+      },
+      {
+        "name": "Texture Info",
+        "offset": 100724,
+        "length": 19120,
+        "valid": true
+      },
+      {
+        "name": "Faces",
+        "offset": 119844,
+        "length": 27800,
+        "valid": true
+      },
+      {
+        "name": "Lighting",
+        "offset": 222940,
+        "length": 258027,
+        "valid": true
+      },
+      {
+        "name": "Clip Nodes",
+        "offset": 147644,
+        "length": 25640,
+        "valid": true
+      },
+      {
+        "name": "Leaves",
+        "offset": 26064,
+        "length": 20384,
+        "valid": true
+      },
+      {
+        "name": "Mark Surfaces",
+        "offset": 173284,
+        "length": 3470,
+        "valid": true
+      },
+      {
+        "name": "Edges",
+        "offset": 203388,
+        "length": 16096,
+        "valid": true
+      },
+      {
+        "name": "Surface Edges",
+        "offset": 176756,
+        "length": 26632,
+        "valid": true
+      },
+      {
+        "name": "Models",
+        "offset": 219484,
+        "length": 3456,
+        "valid": true
+      }
+    ],
+    "entity_count": 264,
+    "entity_counts": {
+      "worldspawn": 1,
+      "perk_double": 1,
+      "power_switch": 1,
+      "item_barricade": 20,
+      "perk_juggernog": 1,
+      "perk_revive": 1,
+      "perk_speed": 1,
+      "spawn_zombie": 22,
+      "path_corner": 32,
+      "place_model": 33,
+      "weapon_wall": 10,
+      "buy_weapon": 10,
+      "func_door_nzp": 7,
+      "light": 16,
+      "light_environment": 1,
+      "func_illusionary": 4,
+      "func_wall": 32,
+      "mystery_box": 1,
+      "mystery_box_tp_spot": 4,
+      "teddy_spawn": 3,
+      "game_counter": 1,
+      "game_songplay": 1,
+      "zapper_switch": 1,
+      "zapper_light": 1,
+      "zapper_node": 6,
+      "info_player_1_spawn": 1,
+      "info_player_2_spawn": 1,
+      "info_player_3_spawn": 1,
+      "info_player_4_spawn": 1,
+      "spawn_dog": 10,
+      "perk_pap": 1,
+      "misc_model": 38
+    },
+    "entities": [
+      {
+        "compiler": "ZHLT v3.4 VL34 (Nov 21 2023)",
+        "sky": "sky",
+        "_generator": "J.A.C.K. 1.1.1262 (vpHalfLife)",
+        "mapversion": "220",
+        "classname": "worldspawn"
+      },
+      {
+        "aistatus": "sounds/music/perksacola/doubletap.wav",
+        "oldmodel": "sounds/machines/perk_drink.wav",
+        "model": "models/machines/hl_scale/double_tap_2.mdl",
+        "weapon2model": "models/machines/v_perk.mdl",
+        "origin": "746 520 240",
+        "classname": "perk_double"
+      },
+      {
+        "model": "models/machines/hl_scale/power_switch.mdl",
+        "origin": "1380 -224 354",
+        "angle": "90",
+        "classname": "power_switch"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "604 -810 364",
+        "targetname": "w16",
+        "angle": "180",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "1590 -504 368",
+        "targetname": "w18",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "aistatus": "sounds/music/perksacola/juggernog.wav",
+        "weapon2model": "models/machines/v_perk.mdl",
+        "model": "models/machines/hl_scale/juggernog.mdl",
+        "oldmodel": "sounds/machines/perk_drink.wav",
+        "origin": "1736 704 336",
+        "classname": "perk_juggernog"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "1858 833 368",
+        "targetname": "w19",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "119 675 265",
+        "targetname": "w17",
+        "angle": "270",
+        "angles": "0 270 0",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-132 -866 362",
+        "targetname": "w1",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-388 -866 362",
+        "targetname": "w2",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-720 -866 362",
+        "targetname": "w4",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-976 -866 362",
+        "targetname": "w3",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "aistatus": "sounds/music/perksacola/quickrevive.wav",
+        "model": "models/machines/hl_scale/quick_revive.mdl",
+        "oldmodel": "sounds/machines/perk_drink.wav",
+        "weapon2model": "models/machines/v_perk.mdl",
+        "origin": "-840 -360 336",
+        "angle": "270",
+        "classname": "perk_revive"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2092 -866 362",
+        "targetname": "w6",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1248 -866 362",
+        "targetname": "w5",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "aistatus": "sounds/music/perksacola/speedcola.wav",
+        "oldmodel": "sounds/machines/perk_drink.wav",
+        "model": "models/machines/hl_scale/speed_cola.mdl",
+        "weapon2model": "models/machines/v_perk.mdl",
+        "origin": "-1284 -312 336",
+        "angle": "90",
+        "angles": "0 90 0",
+        "classname": "perk_speed"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2233 -214 368",
+        "targetname": "w7",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2028 174 362",
+        "targetname": "w8",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1312 174 362",
+        "targetname": "w9",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-131 194 362",
+        "targetname": "w13",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-387 194 362",
+        "targetname": "w12",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-719 194 362",
+        "targetname": "w11",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-975 194 362",
+        "targetname": "w10",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-186 -1358 338",
+        "target": "p2",
+        "spawnflags": "0",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-504 -1360 370",
+        "target": "p2_1",
+        "targetname": "p2",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-504 -1032 370",
+        "target": "w2",
+        "targetname": "p2_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-132 -860 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-388 -860 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-718.709 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-974.709 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-930 -1358 338",
+        "target": "p4",
+        "spawnflags": "0",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-612 -1360 370",
+        "target": "p4_1",
+        "targetname": "p4",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-612 -1032 370",
+        "target": "w4",
+        "targetname": "p4_1",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-716 -348 364",
+        "targetname": "ww1",
+        "sequence": "1",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*1",
+        "target": "ww1",
+        "weapon": "2",
+        "cost": "200",
+        "cost2": "100",
+        "classname": "buy_weapon"
+      },
+      {
+        "model": "*2",
+        "target": "ww2",
+        "weapon": "10",
+        "cost": "600",
+        "cost2": "300",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "-960 -348 362",
+        "targetname": "ww2",
+        "sequence": "9",
+        "angles": "0 0 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*3",
+        "wayTarget": "Room2",
+        "angle": "-1",
+        "target": "z5",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1000",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-135.911 -1297.87 338",
+        "target": "p1",
+        "spawnflags": "0",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-482 -1296 370",
+        "target": "p1_1",
+        "targetname": "p1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-482 -1067.5 370",
+        "target": "w1",
+        "targetname": "p1_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-634 -1067.5 370",
+        "target": "w3",
+        "targetname": "p3_1",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-634 -1296 370",
+        "target": "p3_1",
+        "targetname": "p3",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-980.089 -1297.87 338",
+        "target": "p3",
+        "spawnflags": "0",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-135.911 -1297.87 338",
+        "target": "p1",
+        "spawnflags": "0",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-482 -1296 370",
+        "target": "p1_1",
+        "targetname": "p1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-482 -1067.5 370",
+        "target": "w1",
+        "targetname": "p1_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-634 -1067.5 370",
+        "target": "w3",
+        "targetname": "p3_1",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-634 -1296 370",
+        "target": "p3_1",
+        "targetname": "p3",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-980.089 -1297.87 338",
+        "target": "p3",
+        "spawnflags": "0",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1251.18 -1310.37 338",
+        "target": "p5",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1597.27 -1308.5 370",
+        "target": "p5_1",
+        "targetname": "p5",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1597.27 -1080 370",
+        "target": "w5",
+        "targetname": "p5_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1749.27 -1080 370",
+        "target": "w6",
+        "targetname": "p6_2",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1749.27 -1308.5 370",
+        "target": "p6_2",
+        "targetname": "p6",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-2095.36 -1310.37 338",
+        "target": "p6",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1352 -348 362",
+        "targetname": "ww3",
+        "sequence": "22",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*4",
+        "target": "ww3",
+        "weapon": "23",
+        "cost": "1200",
+        "cost2": "600",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "-1246.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2090.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "model": "*5",
+        "angle": "-1",
+        "wayTarget": "Outside1",
+        "target": "z6",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-2230.85 -233.291 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 0 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2045.29 178.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1329.29 178.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2375 -224 337",
+        "target": "w7",
+        "targetname": "z6",
+        "spawnflags": "3",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-2090.36 647.07 338",
+        "target": "p8",
+        "targetname": "z6",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1744.27 645.205 370",
+        "target": "p8_2",
+        "targetname": "p8",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1744.27 416.705 370",
+        "target": "w8",
+        "targetname": "p8_2",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1592.27 416.705 370",
+        "target": "w9",
+        "targetname": "p9_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1592.27 645.205 370",
+        "target": "p9_1",
+        "targetname": "p9",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1246.18 647.07 338",
+        "target": "p9",
+        "targetname": "z6",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "model": "*6",
+        "angle": "-1",
+        "wayTarget": "Room3",
+        "target": "z7",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-974.709 186.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-718.709 186.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-388 188 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-132 188 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-186 686 338",
+        "target": "p12",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-135.911 625.865 338",
+        "target": "p13",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-504 688 370",
+        "target": "p12_1",
+        "targetname": "p12",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-482 624 370",
+        "target": "p13_1",
+        "targetname": "p13",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-482 395.5 370",
+        "target": "w13",
+        "targetname": "p13_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-504 360 370",
+        "target": "w12",
+        "targetname": "p12_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-612 360 370",
+        "target": "w11",
+        "targetname": "p11_1",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-634 395.5 370",
+        "target": "w10",
+        "targetname": "p10_1",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-634 624 370",
+        "target": "p10_1",
+        "targetname": "p10",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-612 688 370",
+        "target": "p11_1",
+        "targetname": "p11",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-930 686 338",
+        "target": "p11",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-980.089 625.865 338",
+        "target": "p10",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "model": "*7",
+        "zhlt_lightflags": "3",
+        "angle": "-1",
+        "wayTarget": "Outside2",
+        "target": "z8",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-1940 -332 362",
+        "targetname": "ww6",
+        "sequence": "4",
+        "angles": "0 180 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*8",
+        "target": "ww6",
+        "weapon": "5",
+        "cost": "1400",
+        "cost2": "700",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "388 136 266",
+        "targetname": "ww7",
+        "sequence": "28",
+        "angles": "0 90 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*9",
+        "target": "ww7",
+        "weapon": "54",
+        "cost": "1200",
+        "cost2": "600",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "853.089 -808 339",
+        "target": "w16",
+        "targetname": "z8",
+        "spawnflags": "3",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "119 677 211",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "120 771 240",
+        "targetname": "z8",
+        "target": "w17",
+        "spawnflags": "3",
+        "angles": "0 270 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "model": "*10",
+        "target": "ww8",
+        "weapon": "15",
+        "cost": "1000",
+        "cost2": "500",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "1884 -336 363",
+        "targetname": "ww8",
+        "sequence": "14",
+        "angles": "0 180 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*11",
+        "zhlt_lightflags": "3",
+        "wayTarget": "BoxRoom",
+        "angle": "-1",
+        "target": "z10",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "1588 -612 340",
+        "target": "w18",
+        "targetname": "z10",
+        "spawnflags": "3",
+        "angles": "0 90 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "1860 940 340",
+        "target": "w19",
+        "targetname": "z10",
+        "spawnflags": "3",
+        "angles": "0 270 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-228 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-936 -584 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-228 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-936 -584 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "482 30.8038 550.072",
+        "_light": "39 41 118 125",
+        "angles": "30 -90 0",
+        "classname": "light_environment"
+      },
+      {
+        "model": "*12",
+        "classname": "func_illusionary"
+      },
+      {
+        "model": "*13",
+        "classname": "func_illusionary"
+      },
+      {
+        "model": "*14",
+        "angle": "-1",
+        "wayTarget": "Power1Door",
+        "spawnflags": "64",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "classname": "func_door_nzp"
+      },
+      {
+        "model": "*15",
+        "zhlt_lightflags": "3",
+        "angle": "-1",
+        "wayTarget": "Power2Door",
+        "spawnflags": "64",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "classname": "func_door_nzp"
+      },
+      {
+        "model": "*16",
+        "classname": "func_illusionary"
+      },
+      {
+        "origin": "-1228 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "classname": "light"
+      },
+      {
+        "origin": "-1228 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2132 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "classname": "light"
+      },
+      {
+        "origin": "-2132 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-228 -72 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-228 -72 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-932 -72 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-932 -72 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2028 -232 384",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-2028 -232 440",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1852 -232 384",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-1852 -232 440",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1664 512 304",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 180 0",
+        "model": "models/props/lamp_oil.mdl",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1664 512.5 314",
+        "_light": "255 255 128 125",
+        "wait": "1",
+        "style": "3",
+        "classname": "light"
+      },
+      {
+        "origin": "1888 624 400",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "1888 624 456",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "1584 -456 400",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "1584 -456 456",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1294.71 181.153 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2006.71 181.153 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2233.15 -190.709 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 180 0",
+        "classname": "place_model"
+      },
+      {
+        "model": "*17",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*18",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*19",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*20",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*21",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*22",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*23",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*24",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*25",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*26",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*27",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*28",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*29",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*30",
+        "_tb_group": "2",
+        "classname": "func_wall"
+      },
+      {
+        "_tb_group": "2",
+        "origin": "1976 -40 326",
+        "angle": "270",
+        "classname": "mystery_box"
+      },
+      {
+        "model": "*31",
+        "_tb_group": "4",
+        "classname": "func_wall"
+      },
+      {
+        "_tb_group": "4",
+        "origin": "-1352 -600 326",
+        "angle": "90",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "model": "*32",
+        "_tb_group": "5",
+        "classname": "func_wall"
+      },
+      {
+        "_tb_group": "5",
+        "origin": "-1938 -44 326",
+        "angle": "180",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "noise": "sounds/pu/pickup.wav",
+        "target": "song_counter",
+        "angle": "315",
+        "origin": "632 -556 418",
+        "classname": "teddy_spawn"
+      },
+      {
+        "noise": "sounds/pu/pickup.wav",
+        "target": "song_counter",
+        "angle": "180",
+        "origin": "-1377.41 -658.586 410",
+        "classname": "teddy_spawn"
+      },
+      {
+        "killtarget": "pap_door",
+        "target": "song_play",
+        "targetname": "song_counter",
+        "health": "3",
+        "origin": "-252 -790 330",
+        "classname": "game_counter"
+      },
+      {
+        "cost": "94",
+        "aistatus": "surface_tension",
+        "targetname": "song_play",
+        "origin": "-254 -780 358",
+        "classname": "game_songplay"
+      },
+      {
+        "model": "*33",
+        "target": "ww9",
+        "weapon": "27",
+        "cost": "1000",
+        "classname": "buy_weapon"
+      },
+      {
+        "angle": "180",
+        "origin": "320 -888 364",
+        "targetname": "ww9",
+        "sequence": "26",
+        "classname": "weapon_wall"
+      },
+      {
+        "spawnflags": "1",
+        "zappername": "zap_power",
+        "model": "models/machines/hl_scale/zapper/z_switch.mdl",
+        "origin": "1452 80 360",
+        "classname": "zapper_switch"
+      },
+      {
+        "zappername": "zap_power",
+        "model": "models/machines/hl_scale/zapper/z_light.mdl",
+        "origin": "1452 -40 436",
+        "classname": "zapper_light"
+      },
+      {
+        "model": "models/machines/hl_scale/zapper/z_zap.mdl",
+        "targetname": "zp1_1",
+        "target": "zp1_0",
+        "zappername": "zap_power",
+        "origin": "1458 -100 304",
+        "classname": "zapper_node"
+      },
+      {
+        "model": "models/machines/hl_scale/zapper/z_zap.mdl",
+        "target": "zp2_0",
+        "targetname": "zp2_1",
+        "zappername": "zap_power",
+        "origin": "1458 -40 304",
+        "classname": "zapper_node"
+      },
+      {
+        "model": "models/machines/hl_scale/zapper/z_zap.mdl",
+        "target": "zp2_1",
+        "targetname": "zp2_0",
+        "zappername": "zap_power",
+        "angles": "0 0 180",
+        "origin": "1458 -40 420",
+        "classname": "zapper_node"
+      },
+      {
+        "model": "models/machines/hl_scale/zapper/z_zap.mdl",
+        "target": "zp1_1",
+        "zappername": "zap_power",
+        "targetname": "zp1_0",
+        "angles": "0 0 180",
+        "origin": "1458 -100 420",
+        "classname": "zapper_node"
+      },
+      {
+        "model": "models/machines/hl_scale/zapper/z_zap.mdl",
+        "target": "zp3_1",
+        "targetname": "zp3_0",
+        "zappername": "zap_power",
+        "angles": "0 0 180",
+        "origin": "1458 20 420",
+        "classname": "zapper_node"
+      },
+      {
+        "model": "models/machines/hl_scale/zapper/z_zap.mdl",
+        "target": "zp3_0",
+        "targetname": "zp3_1",
+        "zappername": "zap_power",
+        "origin": "1458 20 304",
+        "classname": "zapper_node"
+      },
+      {
+        "model": "*34",
+        "_tb_group": "9",
+        "classname": "func_wall"
+      },
+      {
+        "_tb_group": "9",
+        "origin": "906 24 230",
+        "angle": "270",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "angle": "270",
+        "origin": "-740 -616 336",
+        "classname": "info_player_1_spawn"
+      },
+      {
+        "angle": "270",
+        "origin": "-648 -616 336",
+        "classname": "info_player_2_spawn"
+      },
+      {
+        "angle": "285",
+        "origin": "-740 -700 336",
+        "classname": "info_player_3_spawn"
+      },
+      {
+        "angle": "270",
+        "origin": "-836 -616 336",
+        "classname": "info_player_4_spawn"
+      },
+      {
+        "angle": "120",
+        "origin": "-56 -796 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "angle": "315",
+        "origin": "-1064 -388 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "angle": "15",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "origin": "-2188 -612 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "spawnflags": "1",
+        "targetname": "z5",
+        "angle": "225",
+        "origin": "-1248 -396 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "spawnflags": "1",
+        "targetname": "z6",
+        "angle": "270",
+        "origin": "-1660 -68 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angle": "135",
+        "origin": "-452 -280 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angle": "270",
+        "origin": "-568 108 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "spawnflags": "1",
+        "targetname": "z8",
+        "angle": "135",
+        "origin": "540 -152 240",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z8",
+        "spawnflags": "1",
+        "angle": "135",
+        "origin": "888 -680 240",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z10",
+        "spawnflags": "1",
+        "origin": "1264 -4 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "model": "*35",
+        "classname": "func_wall"
+      },
+      {
+        "noise": "sounds/pu/pickup.wav",
+        "target": "song_counter",
+        "angles": "90 0 0",
+        "origin": "-856 18 384",
+        "classname": "teddy_spawn"
+      },
+      {
+        "model": "*36",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*37",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*38",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*39",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*40",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "origin": "-1604 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "classname": "light"
+      },
+      {
+        "origin": "-1604 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1502.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1504 -866 362",
+        "targetname": "w20",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-1838.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1840 -866 362",
+        "targetname": "w21",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-1637.27 -1040 370",
+        "target": "w20",
+        "targetname": "p14_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1705.27 -1040 370",
+        "target": "w21",
+        "targetname": "p15_1",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1629.27 -1348.5 370",
+        "target": "p14_1",
+        "targetname": "p14",
+        "wait": "0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-1717.27 -1348.5 370",
+        "target": "p15_1",
+        "targetname": "p15",
+        "wait": "0",
+        "angles": "0 180 0",
+        "classname": "path_corner"
+      },
+      {
+        "origin": "-2031.36 -1358.37 338",
+        "target": "p15",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1331.18 -1354.37 338",
+        "target": "p14",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "angle": "0",
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2233 54 368",
+        "targetname": "w22",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-2233.15 30.709 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 -180 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2230.85 73.291 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 0 0",
+        "classname": "place_model"
+      },
+      {
+        "model": "*41",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "origin": "-2375 52 337",
+        "target": "w22",
+        "targetname": "z6",
+        "spawnflags": "3",
+        "classname": "spawn_zombie"
+      },
+      {
+        "model": "*42",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*43",
+        "_tb_group": "10",
+        "classname": "func_wall"
+      },
+      {
+        "_tb_group": "10",
+        "origin": "-754 -304 326",
+        "angle": "180",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "model": "*44",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*45",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*46",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "origin": "-338 -144 364",
+        "targetname": "ww10",
+        "sequence": "7",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*47",
+        "target": "ww10",
+        "weapon": "8",
+        "cost": "1200",
+        "cost2": "600",
+        "classname": "buy_weapon"
+      },
+      {
+        "model": "*48",
+        "target": "ww8",
+        "weapon": "15",
+        "cost": "1000",
+        "cost2": "500",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "1884 -336 363",
+        "targetname": "ww8",
+        "sequence": "14",
+        "angles": "0 180 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*49",
+        "cost2": "250",
+        "target": "ww11",
+        "weapon": "26",
+        "cost": "250",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "1688 -40 363",
+        "targetname": "ww11",
+        "sequence": "25",
+        "angles": "0 90 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*50",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*51",
+        "zhlt_lightflags": "3",
+        "classname": "func_wall"
+      },
+      {
+        "model": "*52",
+        "targetname": "pap_door",
+        "classname": "func_wall"
+      },
+      {
+        "spawnflags": "3",
+        "skin": "0",
+        "oldz": "30",
+        "oldorigin": "0 0 2",
+        "oldmodel": "sounds/machines/packapunch/upgrade.wav",
+        "model": "models/machines/hl_scale/pap/p_machine.mdl",
+        "door_model_name": "models/machines/hl_scale/pap/p_flag.mdl",
+        "cost": "5000",
+        "box3": "-18 -31.7 18",
+        "box2": "17 0 6",
+        "box1": "7.5 0.1 6.0",
+        "angle": "180",
+        "origin": "1676 388 192",
+        "classname": "perk_pap"
+      },
+      {
+        "_light": "100 0 0 150",
+        "origin": "1688 424 288",
+        "classname": "light"
+      },
+      {
+        "model": "*53",
+        "classname": "func_illusionary"
+      },
+      {
+        "_light": "0 100 0 150",
+        "origin": "1688 348 288",
+        "classname": "light"
+      },
+      {
+        "_light": "115",
+        "origin": "1672 384 260",
+        "classname": "light"
+      },
+      {
+        "origin": "120 664 248",
+        "_light": "255 255 255 75",
+        "wait": "1",
+        "classname": "light"
+      },
+      {
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-1780 -564 376",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-1748 -636 376",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "75 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-1668 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-1376 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-1164 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-1968 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-2196 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-1080 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-852 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "75 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-552 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-260 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-48 -860 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 60 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-467.177 -579.856 376",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 60 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-388.823 -588.144 376",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 105 0",
+        "model": "models/props/derped/tractor.mdl",
+        "origin": "-2432 560 340",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "skin": "1",
+        "angles": "0 75 0",
+        "model": "models/props/derped/tractor.mdl",
+        "origin": "-2300 556 340",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-2204 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-2152 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-2104 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-2020 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-1920 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-1800 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 180 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-1544 460 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 180 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-1420 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 180 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-1328 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 180 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-1196 452 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 180 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-1256 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 180 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-1144 456 428",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-1080 188 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "-852 188 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "75 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "-552 188 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-260 188 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_3.mdl",
+        "origin": "-48 188 344",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "skin": "1",
+        "angles": "-25 -74 -173",
+        "model": "models/props/derped/tractor.mdl",
+        "origin": "644 56 388",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "1092 136 364",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "1092 64 360",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "0 0 0",
+        "model": "models/props/derped/pumpkin_1.mdl",
+        "origin": "572 -868 312",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      },
+      {
+        "angles": "-68 154 -117",
+        "model": "models/props/derped/pumpkin_2.mdl",
+        "origin": "1684 -36 424",
+        "spawnflags": "0",
+        "month_limiter": "10",
+        "gamemode_limiter": "6",
+        "classname": "misc_model"
+      }
+    ],
+    "important_entities": [
+      {
+        "compiler": "ZHLT v3.4 VL34 (Nov 21 2023)",
+        "sky": "sky",
+        "_generator": "J.A.C.K. 1.1.1262 (vpHalfLife)",
+        "mapversion": "220",
+        "classname": "worldspawn"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "604 -810 364",
+        "targetname": "w16",
+        "angle": "180",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "1590 -504 368",
+        "targetname": "w18",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "1858 833 368",
+        "targetname": "w19",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "119 675 265",
+        "targetname": "w17",
+        "angle": "270",
+        "angles": "0 270 0",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-132 -866 362",
+        "targetname": "w1",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-388 -866 362",
+        "targetname": "w2",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-720 -866 362",
+        "targetname": "w4",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-976 -866 362",
+        "targetname": "w3",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2092 -866 362",
+        "targetname": "w6",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1248 -866 362",
+        "targetname": "w5",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2233 -214 368",
+        "targetname": "w7",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2028 174 362",
+        "targetname": "w8",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1312 174 362",
+        "targetname": "w9",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-131 194 362",
+        "targetname": "w13",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-387 194 362",
+        "targetname": "w12",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-719 194 362",
+        "targetname": "w11",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-975 194 362",
+        "targetname": "w10",
+        "angle": "270",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-186 -1358 338",
+        "target": "p2",
+        "spawnflags": "0",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-132 -860 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-388 -860 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-718.709 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-974.709 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-930 -1358 338",
+        "target": "p4",
+        "spawnflags": "0",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-716 -348 364",
+        "targetname": "ww1",
+        "sequence": "1",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*1",
+        "target": "ww1",
+        "weapon": "2",
+        "cost": "200",
+        "cost2": "100",
+        "classname": "buy_weapon"
+      },
+      {
+        "model": "*2",
+        "target": "ww2",
+        "weapon": "10",
+        "cost": "600",
+        "cost2": "300",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "-960 -348 362",
+        "targetname": "ww2",
+        "sequence": "9",
+        "angles": "0 0 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*3",
+        "wayTarget": "Room2",
+        "angle": "-1",
+        "target": "z5",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1000",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-135.911 -1297.87 338",
+        "target": "p1",
+        "spawnflags": "0",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-980.089 -1297.87 338",
+        "target": "p3",
+        "spawnflags": "0",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-135.911 -1297.87 338",
+        "target": "p1",
+        "spawnflags": "0",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-980.089 -1297.87 338",
+        "target": "p3",
+        "spawnflags": "0",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1251.18 -1310.37 338",
+        "target": "p5",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-2095.36 -1310.37 338",
+        "target": "p6",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1352 -348 362",
+        "targetname": "ww3",
+        "sequence": "22",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*4",
+        "target": "ww3",
+        "weapon": "23",
+        "cost": "1200",
+        "cost2": "600",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "-1246.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2090.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "model": "*5",
+        "angle": "-1",
+        "wayTarget": "Outside1",
+        "target": "z6",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-2230.85 -233.291 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 0 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2045.29 178.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1329.29 178.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2375 -224 337",
+        "target": "w7",
+        "targetname": "z6",
+        "spawnflags": "3",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-2090.36 647.07 338",
+        "target": "p8",
+        "targetname": "z6",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1246.18 647.07 338",
+        "target": "p9",
+        "targetname": "z6",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "model": "*6",
+        "angle": "-1",
+        "wayTarget": "Room3",
+        "target": "z7",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-974.709 186.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-718.709 186.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-388 188 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-132 188 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 270 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-186 686 338",
+        "target": "p12",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-135.911 625.865 338",
+        "target": "p13",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-930 686 338",
+        "target": "p11",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-980.089 625.865 338",
+        "target": "p10",
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "model": "*7",
+        "zhlt_lightflags": "3",
+        "angle": "-1",
+        "wayTarget": "Outside2",
+        "target": "z8",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-1940 -332 362",
+        "targetname": "ww6",
+        "sequence": "4",
+        "angles": "0 180 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*8",
+        "target": "ww6",
+        "weapon": "5",
+        "cost": "1400",
+        "cost2": "700",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "388 136 266",
+        "targetname": "ww7",
+        "sequence": "28",
+        "angles": "0 90 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*9",
+        "target": "ww7",
+        "weapon": "54",
+        "cost": "1200",
+        "cost2": "600",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "853.089 -808 339",
+        "target": "w16",
+        "targetname": "z8",
+        "spawnflags": "3",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "119 677 211",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "120 771 240",
+        "targetname": "z8",
+        "target": "w17",
+        "spawnflags": "3",
+        "angles": "0 270 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "model": "*10",
+        "target": "ww8",
+        "weapon": "15",
+        "cost": "1000",
+        "cost2": "500",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "1884 -336 363",
+        "targetname": "ww8",
+        "sequence": "14",
+        "angles": "0 180 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*11",
+        "zhlt_lightflags": "3",
+        "wayTarget": "BoxRoom",
+        "angle": "-1",
+        "target": "z10",
+        "spawnflags": "0",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "dmg": "0",
+        "health": "0",
+        "cost": "1250",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "1588 -612 340",
+        "target": "w18",
+        "targetname": "z10",
+        "spawnflags": "3",
+        "angles": "0 90 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "1860 940 340",
+        "target": "w19",
+        "targetname": "z10",
+        "spawnflags": "3",
+        "angles": "0 270 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-228 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-936 -584 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-228 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-936 -584 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "model": "*14",
+        "angle": "-1",
+        "wayTarget": "Power1Door",
+        "spawnflags": "64",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "classname": "func_door_nzp"
+      },
+      {
+        "model": "*15",
+        "zhlt_lightflags": "3",
+        "angle": "-1",
+        "wayTarget": "Power2Door",
+        "spawnflags": "64",
+        "speed": "100",
+        "sounds": "2",
+        "wait": "4",
+        "lip": "8",
+        "classname": "func_door_nzp"
+      },
+      {
+        "origin": "-1228 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "classname": "light"
+      },
+      {
+        "origin": "-1228 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2132 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "classname": "light"
+      },
+      {
+        "origin": "-2132 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-228 -72 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-228 -72 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-932 -72 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-932 -72 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2028 -232 384",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-2028 -232 440",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1852 -232 384",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "-1852 -232 440",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1664 512 304",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 180 0",
+        "model": "models/props/lamp_oil.mdl",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1664 512.5 314",
+        "_light": "255 255 128 125",
+        "wait": "1",
+        "style": "3",
+        "classname": "light"
+      },
+      {
+        "origin": "1888 624 400",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "1888 624 456",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "1584 -456 400",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "style": "0",
+        "classname": "light"
+      },
+      {
+        "origin": "1584 -456 456",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1294.71 181.153 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2006.71 181.153 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2233.15 -190.709 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 180 0",
+        "classname": "place_model"
+      },
+      {
+        "_tb_group": "2",
+        "origin": "1976 -40 326",
+        "angle": "270",
+        "classname": "mystery_box"
+      },
+      {
+        "_tb_group": "4",
+        "origin": "-1352 -600 326",
+        "angle": "90",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "_tb_group": "5",
+        "origin": "-1938 -44 326",
+        "angle": "180",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "noise": "sounds/pu/pickup.wav",
+        "target": "song_counter",
+        "angle": "315",
+        "origin": "632 -556 418",
+        "classname": "teddy_spawn"
+      },
+      {
+        "noise": "sounds/pu/pickup.wav",
+        "target": "song_counter",
+        "angle": "180",
+        "origin": "-1377.41 -658.586 410",
+        "classname": "teddy_spawn"
+      },
+      {
+        "model": "*33",
+        "target": "ww9",
+        "weapon": "27",
+        "cost": "1000",
+        "classname": "buy_weapon"
+      },
+      {
+        "angle": "180",
+        "origin": "320 -888 364",
+        "targetname": "ww9",
+        "sequence": "26",
+        "classname": "weapon_wall"
+      },
+      {
+        "_tb_group": "9",
+        "origin": "906 24 230",
+        "angle": "270",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "angle": "270",
+        "origin": "-740 -616 336",
+        "classname": "info_player_1_spawn"
+      },
+      {
+        "angle": "270",
+        "origin": "-648 -616 336",
+        "classname": "info_player_2_spawn"
+      },
+      {
+        "angle": "285",
+        "origin": "-740 -700 336",
+        "classname": "info_player_3_spawn"
+      },
+      {
+        "angle": "270",
+        "origin": "-836 -616 336",
+        "classname": "info_player_4_spawn"
+      },
+      {
+        "angle": "120",
+        "origin": "-56 -796 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "angle": "315",
+        "origin": "-1064 -388 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "angle": "15",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "origin": "-2188 -612 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "spawnflags": "1",
+        "targetname": "z5",
+        "angle": "225",
+        "origin": "-1248 -396 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "spawnflags": "1",
+        "targetname": "z6",
+        "angle": "270",
+        "origin": "-1660 -68 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angle": "135",
+        "origin": "-452 -280 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z7",
+        "spawnflags": "1",
+        "angle": "270",
+        "origin": "-568 108 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "spawnflags": "1",
+        "targetname": "z8",
+        "angle": "135",
+        "origin": "540 -152 240",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z8",
+        "spawnflags": "1",
+        "angle": "135",
+        "origin": "888 -680 240",
+        "classname": "spawn_dog"
+      },
+      {
+        "targetname": "z10",
+        "spawnflags": "1",
+        "origin": "1264 -4 336",
+        "classname": "spawn_dog"
+      },
+      {
+        "noise": "sounds/pu/pickup.wav",
+        "target": "song_counter",
+        "angles": "90 0 0",
+        "origin": "-856 18 384",
+        "classname": "teddy_spawn"
+      },
+      {
+        "origin": "-1604 -600 416",
+        "_light": "255 255 255 200",
+        "wait": "1",
+        "classname": "light"
+      },
+      {
+        "origin": "-1604 -600 472",
+        "_light": "255 255 128 200",
+        "style": "0",
+        "wait": "1",
+        "frame": "111",
+        "model": "models/props/lamp_ndu.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-1502.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1504 -866 362",
+        "targetname": "w20",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-1838.71 -858.847 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 90 0",
+        "classname": "place_model"
+      },
+      {
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-1840 -866 362",
+        "targetname": "w21",
+        "angle": "90",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-2031.36 -1358.37 338",
+        "target": "p15",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 0 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "origin": "-1331.18 -1354.37 338",
+        "target": "p14",
+        "targetname": "z5",
+        "spawnflags": "1",
+        "angles": "0 180 0",
+        "classname": "spawn_zombie"
+      },
+      {
+        "angle": "0",
+        "oldmodel": "sounds/misc/barricade.wav",
+        "aistatus": "sounds/misc/barricade_destroy.wav",
+        "model": "models/misc/window.mdl",
+        "origin": "-2233 54 368",
+        "targetname": "w22",
+        "classname": "item_barricade"
+      },
+      {
+        "origin": "-2233.15 30.709 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 -180 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2230.85 73.291 304.619",
+        "model": "models/props/sandbags.mdl",
+        "sequence": "0",
+        "skin": "0",
+        "angles": "0 0 0",
+        "classname": "place_model"
+      },
+      {
+        "origin": "-2375 52 337",
+        "target": "w22",
+        "targetname": "z6",
+        "spawnflags": "3",
+        "classname": "spawn_zombie"
+      },
+      {
+        "_tb_group": "10",
+        "origin": "-754 -304 326",
+        "angle": "180",
+        "classname": "mystery_box_tp_spot"
+      },
+      {
+        "origin": "-338 -144 364",
+        "targetname": "ww10",
+        "sequence": "7",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*47",
+        "target": "ww10",
+        "weapon": "8",
+        "cost": "1200",
+        "cost2": "600",
+        "classname": "buy_weapon"
+      },
+      {
+        "model": "*48",
+        "target": "ww8",
+        "weapon": "15",
+        "cost": "1000",
+        "cost2": "500",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "1884 -336 363",
+        "targetname": "ww8",
+        "sequence": "14",
+        "angles": "0 180 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "model": "*49",
+        "cost2": "250",
+        "target": "ww11",
+        "weapon": "26",
+        "cost": "250",
+        "classname": "buy_weapon"
+      },
+      {
+        "origin": "1688 -40 363",
+        "targetname": "ww11",
+        "sequence": "25",
+        "angles": "0 90 0",
+        "classname": "weapon_wall"
+      },
+      {
+        "_light": "100 0 0 150",
+        "origin": "1688 424 288",
+        "classname": "light"
+      },
+      {
+        "_light": "0 100 0 150",
+        "origin": "1688 348 288",
+        "classname": "light"
+      },
+      {
+        "_light": "115",
+        "origin": "1672 384 260",
+        "classname": "light"
+      },
+      {
+        "origin": "120 664 248",
+        "_light": "255 255 255 75",
+        "wait": "1",
+        "classname": "light"
+      }
+    ]
+  },
+  "game_pk3": {
+    "exists": true,
+    "path": "C:\\Users\\reube\\Music\\WAW\\NZPortable-Offline\\nzp\\game.pk3",
+    "size_bytes": 94276834,
+    "size_mb": 89.909,
+    "sha256": "847a6fb7c95b26eab0fdbfa31223a225608a5f9f7af4f88af1e04a1c0a14637d",
+    "entry_count": 1281,
+    "maps": [],
+    "extension_counts": {
+      ".cfg": 6,
+      ".lmp": 16,
+      ".tga": 184,
+      ".spr": 22,
+      ".txt": 26,
+      ".png": 79,
+      ".jpg": 17,
+      ".way": 17,
+      ".nsz": 10,
+      ".mb2": 9,
+      ".bsp": 19,
+      ".mbox": 5,
+      ".mdl": 216,
+      ".pcx": 160,
+      ".palhint": 4,
+      ".glsl": 4,
+      ".wav": 357
+    },
+    "assets": [
+      "gfx/portraits/portrait_2.tga",
+      "gfx/portraits/portrait_0.tga",
+      "gfx/portraits/portrait_1.tga",
+      "gfx/s_explod.spr",
+      "gfx/hud/r4.tga",
+      "gfx/hud/dead.tga",
+      "gfx/hud/r_num8.tga",
+      "gfx/hud/r5.tga",
+      "gfx/hud/betty.tga",
+      "gfx/hud/r_num5.tga",
+      "gfx/hud/moneyback_condensed.tga",
+      "gfx/hud/revive.tga",
+      "gfx/hud/jug.tga",
+      "gfx/hud/r1.tga",
+      "gfx/hud/double.tga",
+      "gfx/hud/r_num2.tga",
+      "gfx/hud/flopper.tga",
+      "gfx/hud/r_num0.tga",
+      "gfx/hud/scope.tga",
+      "gfx/hud/blood.tga",
+      "gfx/hud/stamin.tga",
+      "gfx/hud/revive_icon.tga",
+      "gfx/hud/r_num1.tga",
+      "gfx/hud/moneyback.tga",
+      "gfx/hud/r_num9.tga",
+      "gfx/hud/mule.tga",
+      "gfx/hud/r2.tga",
+      "gfx/hud/frag.tga",
+      "gfx/hud/scope_256.tga",
+      "gfx/hud/in_kill.tga",
+      "gfx/hud/2x.tga",
+      "gfx/hud/hit_marker.tga",
+      "gfx/hud/r_num7.tga",
+      "gfx/hud/double2.tga",
+      "gfx/hud/r3.tga",
+      "gfx/hud/scope_nb.tga",
+      "gfx/hud/speed.tga",
+      "gfx/hud/r_num4.tga",
+      "gfx/hud/r_num6.tga",
+      "gfx/hud/r_num3.tga",
+      "gfx/menu/nzp_logo.tga",
+      "gfx/menu/custom.png",
+      "gfx/menu/nzp_warehouse.png",
+      "gfx/menu/nacht_der_untoten.png",
+      "gfx/menu/custom/Fegefeuer.png",
+      "gfx/menu/custom/Hangar.png",
+      "gfx/menu/custom/weapon_test.png",
+      "gfx/menu/custom/Bunker-Defense.png",
+      "gfx/menu/custom/Dung3on.png",
+      "gfx/menu/custom/lexi_overlook.png",
+      "gfx/menu/custom/Loop.png",
+      "gfx/menu/custom/nzp_warehouse.png",
+      "gfx/menu/custom/B1ooDv4.png",
+      "gfx/menu/custom/ndu.png",
+      "gfx/menu/custom/4all.png",
+      "gfx/menu/custom/lexi_house.png",
+      "gfx/menu/custom/christmas_special.png",
+      "gfx/menu/custom/boxxer.png",
+      "gfx/menu/custom/nzp_xmas2.png",
+      "gfx/menu/custom/lexi_temple.png",
+      "gfx/menu/custom/B1ooDv3.png",
+      "gfx/menu/custom/wahnsinn.png",
+      "gfx/menu/custom/nzp_warehouse2.png",
+      "gfx/menu/map_badges.tga",
+      "gfx/menu/christmas_special.png",
+      "gfx/menu/social.tga",
+      "gfx/menu/nzp_xmas2.png",
+      "gfx/menu/kino_der_toten.png",
+      "gfx/menu/wahnsinn.png",
+      "gfx/menu/nzp_warehouse2.png",
+      "gfx/charset.tga",
+      "gfx/controller_glyphs/xbox.tga",
+      "gfx/controller_glyphs/generic.tga",
+      "gfx/controller_glyphs/sony.tga",
+      "gfx/controller_glyphs/nintendo.tga",
+      "gfx/Particle.tga",
+      "gfx/lscreen/Fegefeuer.png",
+      "gfx/lscreen/Hangar.png",
+      "gfx/lscreen/weapon_test.png",
+      "gfx/lscreen/Bunker-Defense.png",
+      "gfx/lscreen/Dung3on.png",
+      "gfx/lscreen/lexi_overlook.png",
+      "gfx/lscreen/Loop.png",
+      "gfx/lscreen/lscreen.png",
+      "gfx/lscreen/nzp_warehouse.png",
+      "gfx/lscreen/B1ooDv4.png",
+      "gfx/lscreen/ndu.png",
+      "gfx/lscreen/4all.png",
+      "gfx/lscreen/lexi_house.png",
+      "gfx/lscreen/christmas_special.png",
+      "gfx/lscreen/boxxer.png",
+      "gfx/lscreen/nzp_xmas2.png",
+      "gfx/lscreen/lexi_temple.png",
+      "gfx/lscreen/B1ooDv3.png",
+      "gfx/lscreen/nzp_warehouse2.png",
+      "gfx/error.tga",
+      "gfx/achievement/uplink.tga",
+      "gfx/achievement/one_clip.tga",
+      "gfx/achievement/undone.tga",
+      "gfx/achievement/pro_gamer_move.tga",
+      "gfx/achievement/background.tga",
+      "gfx/achievement/orbital_strike.tga",
+      "gfx/achievement/barrels_o_fun.tga",
+      "gfx/achievement/tilemap.tga",
+      "gfx/achievement/over_achiever.tga",
+      "gfx/achievement/its_a_trap.tga",
+      "gfx/achievement/achievement_locked.tga",
+      "gfx/achievement/warmed_up.tga",
+      "gfx/achievement/steady.tga",
+      "gfx/achievement/colt_hearted_killer.tga",
+      "gfx/achievement/oops.tga",
+      "gfx/achievement/dipsomaniac.tga",
+      "gfx/achievement/half_way.tga",
+      "gfx/achievement/made_by_children.tga",
+      "gfx/achievement/instant_help.tga",
+      "gfx/achievement/why_wait.tga",
+      "gfx/achievement/no_perks_no_problem.tga",
+      "gfx/achievement/the_collector.tga",
+      "gfx/achievement/cmere_cupcake.tga",
+      "gfx/achievement/slasher.tga",
+      "gfx/achievement/moviegoer.tga",
+      "gfx/achievement/2021.tga",
+      "gfx/achievement/cache_and_carry.tga",
+      "gfx/achievement/mindblowing.tga",
+      "gfx/achievement/tough_luck.tga",
+      "gfx/achievement/unlucky.tga",
+      "gfx/achievement/blow_the_bank.tga",
+      "gfx/achievement/the_f_bomb.tga",
+      "gfx/achievement/long_name.tga",
+      "gfx/achievement/kraut_tongue.tga",
+      "gfx/achievement/gregg.tga",
+      "gfx/achievement/divide_and_conquer.tga",
+      "gfx/achievement/ready.tga",
+      "gfx/achievement/abstinence_program.tga",
+      "gfx/achievement/thanks_explosions.tga",
+      "gfx/achievement/where_legs_go.tga",
+      "gfx/achievement/mbox_maniac.tga",
+      "gfx/achievement/increase_firepower.tga",
+      "gfx/achievement/go_hell_no.tga",
+      "gfx/achievement/spinning_plates.tga",
+      "gfx/achievement/75_percent.tga",
+      "gfx/achievement/achievement_template.tga",
+      "gfx/env/Sky_Waldon01DN.jpg",
+      "gfx/env/warehouseft.png",
+      "gfx/env/nduup.tga",
+      "gfx/env/Sky_Waldon01UP.jpg",
+      "gfx/env/skyboxrt.jpg",
+      "gfx/env/Sky_Waldon01BK.jpg",
+      "gfx/env/xmas/alienft.tga",
+      "gfx/env/xmas/peakdn.tga",
+      "gfx/env/xmas/aliendn.tga",
+      "gfx/env/xmas/peakrt.tga",
+      "gfx/env/xmas/alienlf.tga",
+      "gfx/env/xmas/peakft.tga",
+      "gfx/env/xmas/alienrt.tga",
+      "gfx/env/xmas/alienup.tga",
+      "gfx/env/xmas/peakbk.tga",
+      "gfx/env/xmas/alienbk.tga",
+      "gfx/env/xmas/peaklf.tga",
+      "gfx/env/xmas/peakup.tga",
+      "gfx/env/skyboxlf.jpg",
+      "gfx/env/ndubk.tga",
+      "gfx/env/ndurt.tga",
+      "gfx/env/skyboxbk.jpg",
+      "gfx/env/skylf.png",
+      "gfx/env/skydn.png",
+      "gfx/env/skyup.png",
+      "gfx/env/blackup.png",
+      "gfx/env/warehousedn.png",
+      "gfx/env/blackrt.png",
+      "gfx/env/skyboxdn.jpg",
+      "gfx/env/skyboxft.jpg",
+      "gfx/env/blackft.png",
+      "gfx/env/skyrt.png",
+      "gfx/env/Sky_Waldon01RT.jpg",
+      "gfx/env/warehousebk.png",
+      "gfx/env/warehouseup.png",
+      "gfx/env/skybk.png",
+      "gfx/env/ndulf.tga",
+      "gfx/env/warehouself.png",
+      "gfx/env/warehousert.png",
+      "gfx/env/skyboxup.jpg",
+      "gfx/env/verruckt/verruckt_skybk.png",
+      "gfx/env/verruckt/verruckt_skylf.png",
+      "gfx/env/verruckt/verruckt_skyrt.png",
+      "gfx/env/verruckt/verruckt_skyft.png",
+      "gfx/env/verruckt/verruckt_skyup.png",
+      "gfx/env/verruckt/verruckt_skydn.png",
+      "gfx/env/nduft.tga",
+      "gfx/env/ndudn.tga",
+      "gfx/env/blackdn.png",
+      "gfx/env/blacklf.png",
+      "gfx/env/blackbk.png",
+      "gfx/env/skyft.png",
+      "gfx/env/Sky_Waldon01LF.jpg",
+      "gfx/env/Sky_Waldon01FT.jpg",
+      "menu/gradient_l2r.tga",
+      "menu/bg.tga",
+      "menu/cursor_hilight.tga",
+      "menu/cursor.tga",
+      "models/sprites/snowfall.spr_2.tga",
+      "models/sprites/revive_large.tga",
+      "models/sprites/snowfall.spr_4.tga",
+      "models/sprites/snowfall.spr",
+      "models/sprites/lightning.spr_2.tga",
+      "models/sprites/hangar/flare.spr",
+      "models/sprites/hangar/flare.spr_0.tga",
+      "models/sprites/lamp_glow2.spr",
+      "models/sprites/snowfall.spr_1.tga",
+      "models/sprites/revive.tga",
+      "models/sprites/lamp_glow.spr_3.tga",
+      "models/sprites/null.spr",
+      "models/sprites/lightning.spr_1.tga",
+      "models/sprites/lamp_glow.spr_3_0.tga",
+      "models/sprites/snowfall.spr_9.tga",
+      "models/sprites/snowfall.spr_6.tga",
+      "models/sprites/lightning.spr_0.tga",
+      "models/sprites/snowfall.spr_8.tga",
+      "models/sprites/lamp_glow3.spr_0.tga",
+      "models/sprites/snowfall.spr_5.tga",
+      "models/sprites/revive_white.spr",
+      "models/sprites/sprkle.spr_1.tga",
+      "models/sprites/sprkle.spr_0.tga",
+      "models/sprites/snowfall.spr_11.tga",
+      "models/sprites/revive_white.tga",
+      "models/sprites/lamp_glow3.spr",
+      "models/sprites/snowfall.spr_3.tga",
+      "models/sprites/lamp_glow.spr",
+      "models/sprites/lamp_glow.spr_0.tga",
+      "models/sprites/snowfall.spr_10.tga",
+      "models/sprites/lightning.spr",
+      "models/sprites/snowfall.spr_7.tga",
+      "models/sprites/snowfall.spr_0.tga",
+      "models/sprites/lamp_glow.spr_1.tga",
+      "models/sprites/lamp_glow2.spr_0.tga",
+      "models/sprites/explosion.spr",
+      "models/sprites/sprkle.spr",
+      "models/sprites/revive.spr",
+      "models/sprites/flame_main2.spr",
+      "models/sprites/sprkle.spr_4.tga",
+      "models/sprites/sprkle.spr_3.tga",
+      "models/sprites/flamer.spr",
+      "models/sprites/sprkle.spr_2.tga",
+      "models/props/Kino_lounge.mdl",
+      "models/props/shelf.mdl",
+      "models/props/perk_bottle.mdl",
+      "models/props/dummy.mdl",
+      "models/props/radio.mdl",
+      "models/props/sandbags.mdl",
+      "models/props/Barrel_m.mdl",
+      "models/props/fountain.mdl",
+      "models/props/bodybag_flat.mdl",
+      "models/props/pisuar.mdl",
+      "models/props/Kino_box.mdl",
+      "models/props/kino_chairset.mdl",
+      "models/props/mystery_debris.mdl",
+      "models/props/table_dinner.mdl",
+      "models/props/xmas/token_glasses.mdl",
+      "models/props/xmas/bell.mdl",
+      "models/props/xmas/wep_frame.mdl",
+      "models/props/xmas/token_scarf.mdl",
+      "models/props/xmas/token_toy.mdl",
+      "models/props/xmas/dead_soldier.mdl",
+      "models/props/xmas/wep_cart.mdl",
+      "models/props/xmas/wep_energy.mdl",
+      "models/props/Kino_boxes2.mdl",
+      "models/props/flag_n_w_h.mdl",
+      "models/props/treeSL.mdl",
+      "models/props/treeTH.mdl",
+      "models/props/trash_con.mdl",
+      "models/props/flame.mdl",
+      "models/props/chandelier$.mdl",
+      "models/props/gramophone_skip.mdl",
+      "models/props/Kino_boxes4.mdl",
+      "models/props/Kino_boxes3.mdl",
+      "models/props/flag_usa.mdl",
+      "models/props/oven.mdl",
+      "models/props/flag.mdl",
+      "models/props/bath.mdl",
+      "models/props/USflag.mdl",
+      "models/props/tree_swamp$.mdl_0.tga",
+      "models/props/lamp_ndu.mdl",
+      "models/props/vanity_table.mdl",
+      "models/props/jeep_hl.mdl",
+      "models/props/bed.mdl",
+      "models/props/container.mdl",
+      "models/props/stand.mdl",
+      "models/props/gramophone.mdl",
+      "models/props/table_sq.mdl",
+      "models/props/lamp_kino.mdl",
+      "models/props/dentist_chair.mdl",
+      "models/props/teleporter.mdl",
+      "models/props/couch_res.mdl",
+      "models/props/hammersickle.mdl",
+      "models/props/fridge.mdl",
+      "models/props/teddy.mdl",
+      "models/props/mainframe_pad.mdl",
+      "models/props/bodybag_head.mdl",
+      "models/props/Kino_couch.mdl",
+      "models/props/bodybag_back_wall.mdl",
+      "models/props/lamp_oil.mdl",
+      "models/props/grenade_bag.mdl",
+      "models/props/toilet.mdl",
+      "models/props/Kino_table.mdl",
+      "models/props/rebar.mdl",
+      "models/props/lamp_wall.mdl",
+      "models/props/jeep.mdl",
+      "models/props/metal_chair.mdl",
+      "models/props/projector.mdl",
+      "models/props/piano.mdl",
+      "models/props/derped/tractor.mdl",
+      "models/props/derped/ammo_can.mdl",
+      "models/props/derped/pumpkin_3.mdl",
+      "models/props/derped/pumpkin_1.mdl",
+      "models/props/derped/pumpkin_2.mdl",
+      "models/props/tree_ch.mdl",
+      "models/props/radiator.mdl",
+      "models/props/chandelier$.mdl_0.tga",
+      "models/props/tree_swamp$.mdl",
+      "models/props/MopBucket.mdl",
+      "models/props/Kino_stageprop.mdl",
+      "models/props/lamp_ndu45.mdl",
+      "models/player.mdl",
+      "models/way/normal_way_door.spr",
+      "models/way/way_land.spr",
+      "models/way/last_way_door.spr",
+      "models/way/normal_way.spr",
+      "models/way/current_way_door.spr",
+      "models/way/last_way.spr",
+      "models/way/current_way.spr",
+      "models/way/way_jump.spr",
+      "models/weapons/type/v_type.mdl",
+      "models/weapons/type/g_type.mdl",
+      "models/weapons/mp5k/v_mp5k.mdl",
+      "models/weapons/mp5k/g_mp5k.mdl",
+      "models/weapons/m1carbine/g_m1a1.mdl",
+      "models/weapons/m1carbine/v_m1a1.mdl",
+      "models/weapons/knife/g_bowie.mdl",
+      "models/weapons/knife/v_knife.mdl",
+      "models/weapons/knife/v_bowie.mdl",
+      "models/weapons/m1911/v_biatch_right.mdl",
+      "models/weapons/m1911/v_biatch_left.mdl",
+      "models/weapons/m1911/g_colt.mdl",
+      "models/weapons/m1911/v_colt.mdl",
+      "models/weapons/ray/g_ray.mdl",
+      "models/weapons/ray/v_ray.mdl",
+      "models/weapons/ptrs/v_ptrs.mdl",
+      "models/weapons/ptrs/g_ptrs.mdl",
+      "models/weapons/bk/v_bk.mdl",
+      "models/weapons/bk/blade.mdl",
+      "models/weapons/bk/g_bk.mdl",
+      "models/weapons/bk/v_blade_knife.mdl",
+      "models/weapons/bk/v_blade_bowie.mdl",
+      "models/weapons/gewehr/g_gewehr.mdl",
+      "models/weapons/gewehr/v_gewehr.mdl",
+      "models/weapons/mg/g_mg.mdl",
+      "models/weapons/mg/v_mg.mdl",
+      "models/weapons/357/v_357.mdl",
+      "models/weapons/357/g_357.mdl",
+      "models/weapons/sawnoff/g_sawnoff.mdl",
+      "models/weapons/sawnoff/v_snuff_left.mdl",
+      "models/weapons/sawnoff/v_sawnoff.mdl",
+      "models/weapons/sawnoff/v_snuff_right.mdl",
+      "models/weapons/morphine/v_morphine.mdl",
+      "models/weapons/kar/g_kars.mdl",
+      "models/weapons/kar/v_kar.mdl",
+      "models/weapons/kar/v_karscope.mdl",
+      "models/weapons/kar/g_kar.mdl",
+      "models/weapons/browning/g_browning.mdl",
+      "models/weapons/browning/v_browning.mdl",
+      "models/weapons/bar/v_bar.mdl",
+      "models/weapons/bar/g_bar.mdl",
+      "models/weapons/thomp/g_thomp.mdl",
+      "models/weapons/thomp/v_thomp.mdl",
+      "models/weapons/tesla/v_tesla.mdl",
+      "models/weapons/tesla/g_tesla.mdl",
+      "models/weapons/trench/g_trench.mdl",
+      "models/weapons/trench/v_trench.mdl",
+      "models/weapons/fg42/g_fg.mdl",
+      "models/weapons/fg42/v_fg.mdl",
+      "models/weapons/m2flame/g_m2flame.mdl",
+      "models/weapons/m2flame/v_m2flame.mdl",
+      "models/weapons/stg/v_stg.mdl",
+      "models/weapons/stg/g_stg.mdl",
+      "models/weapons/panzer/v_panzer.mdl",
+      "models/weapons/panzer/g_panzer.mdl",
+      "models/weapons/spring/v_spring.mdl",
+      "models/weapons/spring/g_spring.mdl",
+      "models/weapons/grenade/v_betty.mdl",
+      "models/weapons/grenade/g_grenade.mdl",
+      "models/weapons/grenade/g_betty.mdl",
+      "models/weapons/grenade/v_grenade.mdl",
+      "models/weapons/mp40/v_mp40.mdl",
+      "models/weapons/mp40/g_mp40.mdl",
+      "models/weapons/db/g_db.mdl",
+      "models/weapons/db/v_db.mdl",
+      "models/weapons/ray2/v_ray2.mdl",
+      "models/weapons/ray2/v_ray2_energy.mdl",
+      "models/weapons/ray2/g_ray2.mdl",
+      "models/weapons/garand/v_m1.mdl",
+      "models/weapons/garand/g_m1.mdl",
+      "models/weapons/ppsh/g_ppsh.mdl",
+      "models/weapons/ppsh/v_ppsh.mdl",
+      "models/misc/shark.mdl",
+      "models/misc/window.mdl",
+      "models/misc/bolt.mdl",
+      "models/misc/chalk.mdl",
+      "models/misc/raybeam.mdl",
+      "models/misc/flame0.mdl",
+      "models/misc/bolt2.mdl",
+      "models/missing_model.mdl",
+      "models/machines/mystery.mdl",
+      "models/machines/pap_hands.mdl",
+      "models/machines/v_pap.mdl",
+      "models/machines/v_perk.mdl",
+      "models/machines/teleporter.mdl",
+      "models/machines/mglow$.mdl",
+      "models/machines/quake_scale/juggernog.mdl",
+      "models/machines/quake_scale/power_handle.mdl",
+      "models/machines/quake_scale/flopper.mdl",
+      "models/machines/quake_scale/speed_cola.mdl",
+      "models/machines/quake_scale/staminup.mdl",
+      "models/machines/quake_scale/pap.mdl",
+      "models/machines/quake_scale/zapper/z_switch.mdl",
+      "models/machines/quake_scale/zapper/z_zap.mdl",
+      "models/machines/quake_scale/zapper/z_light.mdl",
+      "models/machines/quake_scale/deadshot.mdl",
+      "models/machines/quake_scale/double_tap.mdl",
+      "models/machines/quake_scale/mulekick.mdl",
+      "models/machines/quake_scale/quick_revive.mdl",
+      "models/machines/quake_scale/power_switch.mdl",
+      "models/machines/mglow$.mdl_0.tga",
+      "models/machines/hl_scale/juggernog.mdl",
+      "models/machines/hl_scale/power_handle.mdl",
+      "models/machines/hl_scale/flopper.mdl",
+      "models/machines/hl_scale/speed_cola.mdl",
+      "models/machines/hl_scale/power_handle_arm.mdl",
+      "models/machines/hl_scale/staminup.mdl",
+      "models/machines/hl_scale/pap/p_roller.mdl",
+      "models/machines/hl_scale/pap/p_flag.mdl",
+      "models/machines/hl_scale/pap/p_machine.mdl",
+      "models/machines/hl_scale/zapper/z_switch.mdl",
+      "models/machines/hl_scale/zapper/z_zap.mdl",
+      "models/machines/hl_scale/zapper/z_light.mdl",
+      "models/machines/hl_scale/deadshot.mdl",
+      "models/machines/hl_scale/double_tap.mdl",
+      "models/machines/hl_scale/double_tap_2.mdl",
+      "models/machines/hl_scale/mulekick.mdl",
+      "models/machines/hl_scale/quick_revive.mdl",
+      "models/machines/hl_scale/power_switch.mdl",
+      "models/ai/dog.mdl",
+      "models/ai/zbc%.mdl",
+      "models/ai/zarc(.mdl",
+      "models/ai/zfull.mdl",
+      "models/ai/zcfull.mdl",
+      "models/ai/zh^.mdl",
+      "models/ai/dog_lightning.mdl",
+      "models/ai/zar(.mdl",
+      "models/ai/zb%.mdl",
+      "models/ai/zal(.mdl",
+      "models/ai/zalc(.mdl",
+      "models/ai/zhc^.mdl",
+      "models/pu/carpenter!.mdl",
+      "models/pu/nuke!.mdl",
+      "models/pu/points!.mdl",
+      "models/pu/x2!.mdl",
+      "models/pu/perkbottle!.mdl",
+      "models/pu/pack!.mdl",
+      "models/pu/maxammo!.mdl",
+      "models/pu/instakill!.mdl",
+      "particles/gibchunk.tga",
+      "particles/smoke.tga",
+      "particles/bullethole.tga",
+      "particles/spark.tga",
+      "particles/flame.tga",
+      "particles/bloodcloud.tga",
+      "particles/cloud.tga",
+      "particles/explo_burn01.tga",
+      "sounds/player/jump.wav",
+      "sounds/player/footstep2.wav",
+      "sounds/player/inhale.wav",
+      "sounds/player/exhale.wav",
+      "sounds/player/heart.wav",
+      "sounds/player/land.wav",
+      "sounds/player/pickup.wav",
+      "sounds/player/footstep5.wav",
+      "sounds/player/footstep1.wav",
+      "sounds/player/footstep3.wav",
+      "sounds/player/pain4.wav",
+      "sounds/player/footstep4.wav",
+      "sounds/rounds/droundstart.wav",
+      "sounds/rounds/droundend.wav",
+      "sounds/rounds/eround.wav",
+      "sounds/rounds/nround.wav",
+      "sounds/rounds/splash.wav",
+      "sounds/radios/warehouse/end_sequence_radio.wav",
+      "sounds/radios/warehouse/02.wav",
+      "sounds/radios/warehouse/00.wav",
+      "sounds/radios/warehouse/01.wav",
+      "sounds/radios/xmas/power.wav",
+      "sounds/lexi/lexi_overlook_radios/lexi_overlook_2.wav",
+      "sounds/lexi/lexi_overlook_radios/lexi_overlook_3.wav",
+      "sounds/lexi/lexi_overlook_radios/lexi_overlook_1.wav",
+      "sounds/zombie/w9.wav",
+      "sounds/zombie/w6.wav",
+      "sounds/zombie/w7.wav",
+      "sounds/zombie/w2.wav",
+      "sounds/zombie/w3.wav",
+      "sounds/zombie/t2.wav",
+      "sounds/zombie/r5.wav",
+      "sounds/zombie/a7.wav",
+      "sounds/zombie/a2.wav",
+      "sounds/zombie/d0.wav",
+      "sounds/zombie/w5.wav",
+      "sounds/zombie/t3.wav",
+      "sounds/zombie/w4.wav",
+      "sounds/zombie/r4.wav",
+      "sounds/zombie/a5.wav",
+      "sounds/zombie/r3.wav",
+      "sounds/zombie/r6.wav",
+      "sounds/zombie/t0.wav",
+      "sounds/zombie/a4.wav",
+      "sounds/zombie/t4.wav",
+      "sounds/zombie/a0.wav",
+      "sounds/zombie/sc0.wav",
+      "sounds/zombie/d5.wav",
+      "sounds/zombie/d1.wav",
+      "sounds/zombie/a3.wav",
+      "sounds/zombie/d3.wav",
+      "sounds/zombie/a1.wav",
+      "sounds/zombie/r0.wav",
+      "sounds/zombie/s0.wav",
+      "sounds/zombie/w8.wav",
+      "sounds/zombie/s1.wav",
+      "sounds/zombie/sc1.wav",
+      "sounds/zombie/r9.wav",
+      "sounds/zombie/r8.wav",
+      "sounds/zombie/a6.wav",
+      "sounds/zombie/d6.wav",
+      "sounds/zombie/d2.wav",
+      "sounds/zombie/r1.wav",
+      "sounds/zombie/w1.wav",
+      "sounds/zombie/d4.wav",
+      "sounds/zombie/t1.wav",
+      "sounds/zombie/w0.wav",
+      "sounds/zombie/r2.wav",
+      "sounds/zombie/r7.wav",
+      "sounds/zombie/d7.wav",
+      "sounds/menu/enter.wav",
+      "sounds/menu/navigate.wav",
+      "sounds/ambience/amb_crickets.wav",
+      "sounds/ambience/water1.wav",
+      "sounds/ambience/amb_loop.wav",
+      "sounds/ambience/echoes.wav",
+      "sounds/ambience/wind2.wav",
+      "sounds/weapons/biatch/sliderelease.wav",
+      "sounds/weapons/biatch/magout.wav",
+      "sounds/weapons/biatch/magin.wav",
+      "sounds/weapons/biatch/slideback.wav",
+      "sounds/weapons/m1garand/clipin.wav",
+      "sounds/weapons/m1garand/clipout.wav",
+      "sounds/weapons/m1garand/boltrelease.wav",
+      "sounds/weapons/m1garand/shoot.wav",
+      "sounds/weapons/m1garand/clippush.wav",
+      "sounds/weapons/mp5k/slap.wav",
+      "sounds/weapons/mp5k/magout.wav",
+      "sounds/weapons/mp5k/shoot.wav",
+      "sounds/weapons/mp5k/magin.wav",
+      "sounds/weapons/m1carbine/magout.wav",
+      "sounds/weapons/m1carbine/bolt.wav",
+      "sounds/weapons/m1carbine/shoot.wav",
+      "sounds/weapons/m1carbine/magin.wav",
+      "sounds/weapons/m1carbine/maghit.wav",
+      "sounds/weapons/knife/knife_hitbod.wav",
+      "sounds/weapons/knife/knife_hit.wav",
+      "sounds/weapons/knife/bowie.wav",
+      "sounds/weapons/knife/knife.wav",
+      "sounds/weapons/ptrs/open.wav",
+      "sounds/weapons/ptrs/shoot.wav",
+      "sounds/weapons/ptrs/close.wav",
+      "sounds/weapons/ptrs/magin.wav",
+      "sounds/weapons/ptrs/maghit.wav",
+      "sounds/weapons/gewehr/magout.wav",
+      "sounds/weapons/gewehr/boltrelease.wav",
+      "sounds/weapons/gewehr/shoot.wav",
+      "sounds/weapons/gewehr/magin.wav",
+      "sounds/weapons/gewehr/maghit.wav",
+      "sounds/weapons/papfire.wav",
+      "sounds/weapons/357/out.wav",
+      "sounds/weapons/357/open.wav",
+      "sounds/weapons/357/in.wav",
+      "sounds/weapons/357/shoot.wav",
+      "sounds/weapons/357/close.wav",
+      "sounds/weapons/ballknife/insert.wav",
+      "sounds/weapons/ballknife/shoot.wav",
+      "sounds/weapons/r_exp3.wav",
+      "sounds/weapons/raygun/out.wav",
+      "sounds/weapons/raygun/trig1.wav",
+      "sounds/weapons/raygun/open.wav",
+      "sounds/weapons/raygun/in.wav",
+      "sounds/weapons/raygun/shoot.wav",
+      "sounds/weapons/raygun/close.wav",
+      "sounds/weapons/boltaction/clipin.wav",
+      "sounds/weapons/boltaction/insert.wav",
+      "sounds/weapons/boltaction/boltback.wav",
+      "sounds/weapons/boltaction/clipoff.wav",
+      "sounds/weapons/boltaction/shoot.wav",
+      "sounds/weapons/boltaction/boltforward.wav",
+      "sounds/weapons/boltaction/boltdown.wav",
+      "sounds/weapons/boltaction/boltup.wav",
+      "sounds/weapons/colt/slide.wav",
+      "sounds/weapons/colt/magout.wav",
+      "sounds/weapons/colt/shoot.wav",
+      "sounds/weapons/colt/magin.wav",
+      "sounds/weapons/type100/magout.wav",
+      "sounds/weapons/type100/shoot.wav",
+      "sounds/weapons/type100/magin.wav",
+      "sounds/weapons/type100/boltpull.wav",
+      "sounds/weapons/browning/topclose.wav",
+      "sounds/weapons/browning/chainon.wav",
+      "sounds/weapons/browning/chainoff.wav",
+      "sounds/weapons/browning/boltback.wav",
+      "sounds/weapons/browning/tophit.wav",
+      "sounds/weapons/browning/shoot.wav",
+      "sounds/weapons/browning/boltforward.wav",
+      "sounds/weapons/browning/chainplace.wav",
+      "sounds/weapons/browning/topopen.wav",
+      "sounds/weapons/bar/magout.wav",
+      "sounds/weapons/bar/shoot.wav",
+      "sounds/weapons/bar/magin.wav",
+      "sounds/weapons/bar/maghit.wav",
+      "sounds/weapons/shotgun/out.wav",
+      "sounds/weapons/shotgun/open.wav",
+      "sounds/weapons/shotgun/insert.wav",
+      "sounds/weapons/shotgun/in.wav",
+      "sounds/weapons/shotgun/shoot.wav",
+      "sounds/weapons/shotgun/close.wav",
+      "sounds/weapons/shotgun/pump.wav",
+      "sounds/weapons/thomp/magout.wav",
+      "sounds/weapons/thomp/boltback.wav",
+      "sounds/weapons/thomp/shoot.wav",
+      "sounds/weapons/thomp/magin.wav",
+      "sounds/weapons/tesla/pulllever.wav",
+      "sounds/weapons/tesla/switchoff.wav",
+      "sounds/weapons/tesla/clipin.wav",
+      "sounds/weapons/tesla/glassbreak.wav",
+      "sounds/weapons/tesla/clipoff.wav",
+      "sounds/weapons/tesla/shoot.wav",
+      "sounds/weapons/tesla/switchon.wav",
+      "sounds/weapons/fg42/magout.wav",
+      "sounds/weapons/fg42/boltback.wav",
+      "sounds/weapons/fg42/shoot.wav",
+      "sounds/weapons/fg42/boltforward.wav",
+      "sounds/weapons/fg42/magin.wav",
+      "sounds/weapons/m2flame/flamethrower.wav",
+      "sounds/weapons/stg/magout.wav",
+      "sounds/weapons/stg/boltrelease.wav",
+      "sounds/weapons/stg/boltback.wav",
+      "sounds/weapons/stg/shoot.wav",
+      "sounds/weapons/stg/magin.wav",
+      "sounds/weapons/panzer/move.wav",
+      "sounds/weapons/panzer/insert.wav",
+      "sounds/weapons/panzer/shoot.wav",
+      "sounds/weapons/grenade/explode.wav",
+      "sounds/weapons/grenade/throw.wav",
+      "sounds/weapons/grenade/prime.wav",
+      "sounds/weapons/mp40/magout.wav",
+      "sounds/weapons/mp40/boltback.wav",
+      "sounds/weapons/mp40/shoot.wav",
+      "sounds/weapons/mp40/magin.wav",
+      "sounds/weapons/mg42/magout.wav",
+      "sounds/weapons/mg42/charge.wav",
+      "sounds/weapons/mg42/shoot.wav",
+      "sounds/weapons/mg42/magin.wav",
+      "sounds/weapons/garand/clipin.wav",
+      "sounds/weapons/garand/clipout.wav",
+      "sounds/weapons/garand/boltrelease.wav",
+      "sounds/weapons/garand/shoot.wav",
+      "sounds/weapons/garand/clippush.wav",
+      "sounds/weapons/ppsh/magout.wav",
+      "sounds/weapons/ppsh/boltrelease.wav",
+      "sounds/weapons/ppsh/boltback.wav",
+      "sounds/weapons/ppsh/shoot.wav",
+      "sounds/weapons/ppsh/magin.wav",
+      "sounds/weapons/ppsh/maghit.wav",
+      "sounds/null.wav",
+      "sounds/music/end.wav",
+      "sounds/music/gramophone.wav",
+      "sounds/music/perksacola/mulekick.wav",
+      "sounds/music/perksacola/staminup.wav",
+      "sounds/music/perksacola/quickrevive.wav",
+      "sounds/music/perksacola/juggernog.wav",
+      "sounds/music/perksacola/doubletap.wav",
+      "sounds/music/perksacola/speedcola.wav",
+      "sounds/music/perksacola/deadshot.wav",
+      "sounds/music/perksacola/flopper.wav",
+      "sounds/music/tune1.wav",
+      "sounds/music/gramophone_distorted.wav",
+      "sounds/misc/electric_bolt.wav",
+      "sounds/misc/buy.wav",
+      "sounds/misc/step2.wav",
+      "sounds/misc/talk2.wav",
+      "sounds/misc/xmas/key.wav",
+      "sounds/misc/xmas/bells/f4.wav",
+      "sounds/misc/xmas/bells/g4.wav",
+      "sounds/misc/xmas/bells/a4.wav",
+      "sounds/misc/xmas/bells/as4.wav",
+      "sounds/misc/xmas/bells/d4.wav",
+      "sounds/misc/debris.wav",
+      "sounds/misc/step3.wav",
+      "sounds/misc/wood_door.wav",
+      "sounds/misc/ching.wav",
+      "sounds/misc/barricade.wav",
+      "sounds/misc/drawer.wav",
+      "sounds/misc/giggle.wav",
+      "sounds/misc/step1.wav",
+      "sounds/misc/chime.wav",
+      "sounds/misc/denybuy.wav",
+      "sounds/misc/jumpscare.wav",
+      "sounds/misc/event.wav",
+      "sounds/misc/barricade_destroy.wav",
+      "sounds/misc/step4.wav",
+      "sounds/misc/radio.wav",
+      "sounds/machines/mbox_close.wav",
+      "sounds/machines/power.wav",
+      "sounds/machines/vend.wav",
+      "sounds/machines/mbox_open.wav",
+      "sounds/machines/papsound.wav",
+      "sounds/machines/packapunch/upgrade.wav",
+      "sounds/machines/packapunch/gear_shift.wav",
+      "sounds/machines/packapunch/tick.wav",
+      "sounds/machines/perk_drink.wav",
+      "sounds/machines/elec_shock.wav",
+      "sounds/voice/xmas/s_remember_t.wav",
+      "sounds/voice/xmas/s_reveal.wav",
+      "sounds/voice/xmas/s_bell_interact.wav",
+      "sounds/voice/xmas/s_remember_s.wav",
+      "sounds/voice/xmas/s_tokens.wav",
+      "sounds/voice/xmas/s_frame_interact.wav",
+      "sounds/voice/xmas/s_gramo_interact.wav",
+      "sounds/voice/xmas/s_remember_g.wav",
+      "sounds/voice/xmas/s_final.wav",
+      "sounds/hound/d0.wav",
+      "sounds/hound/t0.wav",
+      "sounds/hound/a0.wav",
+      "sounds/hound/t1.wav",
+      "sounds/pu/kaboom.wav",
+      "sounds/pu/byebye.wav",
+      "sounds/pu/death_machine.wav",
+      "sounds/pu/drop.wav",
+      "sounds/pu/insta_kill.wav",
+      "sounds/pu/double_points.wav",
+      "sounds/pu/nuke.wav",
+      "sounds/pu/carpenter.wav",
+      "sounds/pu/pickup.wav",
+      "sounds/pu/powerup.wav",
+      "sounds/pu/maxammo.wav",
+      "sounds/modes/festive/kaboom.wav",
+      "sounds/modes/festive/byebye.wav",
+      "sounds/modes/festive/upgrade.wav",
+      "sounds/modes/festive/halloween/mbox_open.wav",
+      "sounds/modes/festive/rnd_dog_end.wav",
+      "sounds/modes/festive/rnd_start.wav",
+      "sounds/modes/festive/insta_kill.wav",
+      "sounds/modes/festive/rnd_end.wav",
+      "sounds/modes/festive/double_points.wav",
+      "sounds/modes/festive/rnd_splash.wav",
+      "sounds/modes/festive/fetch.wav",
+      "sounds/modes/festive/free_perk.wav",
+      "sounds/modes/festive/bonus_points.wav",
+      "sounds/modes/festive/max_ammo.wav",
+      "sounds/modes/festive/tear.wav",
+      "sounds/modes/festive/maxammo.wav",
+      "sounds/modes/festive/rnd_dog_start.wav",
+      "sounds/modes/sticks/kaboom.wav",
+      "sounds/modes/sticks/drink_0.wav",
+      "sounds/modes/sticks/explode_1.wav",
+      "sounds/modes/sticks/low_knives.wav",
+      "sounds/modes/sticks/insta_kill.wav",
+      "sounds/modes/sticks/drink_1.wav",
+      "sounds/modes/sticks/double_points.wav",
+      "sounds/modes/sticks/bowie_buy.wav",
+      "sounds/modes/sticks/drink_2.wav",
+      "sounds/modes/sticks/last_stand_1.wav",
+      "sounds/modes/sticks/explode_2.wav",
+      "sounds/modes/sticks/free_perk.wav",
+      "sounds/modes/sticks/explode_0.wav",
+      "sounds/modes/sticks/carpenter.wav",
+      "sounds/modes/sticks/intro.wav",
+      "sounds/modes/sticks/trap.wav",
+      "sounds/modes/sticks/last_stand_0.wav",
+      "sounds/modes/sticks/last_stand_2.wav",
+      "sounds/modes/sticks/lose.wav",
+      "sounds/modes/hardcore/kaboom.wav",
+      "sounds/modes/hardcore/insta_kill.wav",
+      "sounds/modes/hardcore/double_points.wav",
+      "sounds/modes/hardcore/carpenter.wav",
+      "sounds/modes/hardcore/max_ammo.wav",
+      "sounds/modes/wildwest/kaboom.wav",
+      "sounds/modes/wildwest/free_perk.wav",
+      "sounds/modes/wildwest/intro.wav",
+      "sounds/modes/wildwest/lose.wav",
+      "sounds/modes/gungame/kaboom.wav",
+      "sounds/modes/gungame/other_list_final.wav",
+      "sounds/modes/gungame/other_list_half.wav",
+      "sounds/modes/gungame/upgrade.wav",
+      "sounds/modes/gungame/other_list_5.wav",
+      "sounds/modes/gungame/insta_kill.wav",
+      "sounds/modes/gungame/self_list_5.wav",
+      "sounds/modes/gungame/double_points.wav",
+      "sounds/modes/gungame/self_list_half.wav",
+      "sounds/modes/gungame/self_list_final.wav",
+      "sounds/modes/gungame/free_perk.wav",
+      "sounds/modes/gungame/carpenter.wav",
+      "sounds/modes/gungame/win.wav",
+      "sounds/modes/gungame/intro.wav",
+      "sounds/modes/gungame/penalty.wav",
+      "sounds/modes/gungame/lose.wav",
+      "textures/mzfl/muzzleflash8.png",
+      "textures/mzfl/mzfl0.tga",
+      "textures/mzfl/mzfl2.tga",
+      "textures/mzfl/muzzleflash8.tga",
+      "textures/mzfl/mzfl1.tga",
+      "textures/decals/glow2.tga",
+      "textures/decals/particle_burn01.tga",
+      "textures/decals/lavaburn.tga",
+      "textures/decals/blood_splat02.tga",
+      "textures/decals/blood_splat01.tga",
+      "textures/decals/blood_splat03.tga",
+      "textures/decals/blood_stain.tga",
+      "textures/decals/explo_burn01.tga",
+      "textures/q3models/bullet2.jpg",
+      "textures/q3models/bullet3.jpg",
+      "textures/q3models/bullet1.jpg",
+      "textures/particles/blood2.tga",
+      "textures/particles/archive/q3flames.png",
+      "textures/particles/archive/blood2.tga",
+      "textures/particles/archive/__q3flames.jpg",
+      "textures/particles/archive/q3flames.jpg",
+      "textures/particles/archive/fly.png",
+      "textures/particles/archive/blood1.png",
+      "textures/particles/archive/q3particlefont.png",
+      "textures/particles/archive/__q3flames.png",
+      "textures/particles/archive/flame.tga",
+      "textures/particles/archive/bloodcloud.tga",
+      "textures/particles/archive/zing1.png",
+      "textures/particles/archive/inferno.png",
+      "textures/particles/archive/particlefont.png",
+      "textures/particles/zing1.tga",
+      "textures/particles/inferno.tga",
+      "textures/particles/smoke.tga",
+      "textures/particles/fly.tga",
+      "textures/particles/q3particlefont.tga",
+      "textures/particles/q3flames.tga",
+      "textures/particles/flame.tga",
+      "textures/particles/bloodcloud.tga",
+      "textures/particles/blood1.tga",
+      "textures/particles/particlefont.tga",
+      "tracks/festive/dtha.wav",
+      "tracks/glory_days.wav",
+      "tracks/Hangar.wav",
+      "tracks/xmas/jingle_bells.wav",
+      "tracks/xmas/power.wav",
+      "tracks/xmas/trgir.wav",
+      "tracks/xmas/phoenix.wav",
+      "tracks/xmas/obtain.wav",
+      "tracks/xmas/reveal.wav",
+      "tracks/xmas/boiler.wav",
+      "tracks/flying_temple.wav",
+      "tracks/beyond_me.wav",
+      "tracks/starting_over.wav",
+      "tracks/ascend.wav",
+      "tracks/tensioned_by_the_damned.wav",
+      "tracks/surface_tension.wav",
+      "tracks/once_more.wav"
+    ],
+    "warehouse_related": [
+      "gfx/menu/nzp_warehouse.png",
+      "gfx/menu/custom/nzp_warehouse.png",
+      "gfx/menu/custom/nzp_warehouse2.png",
+      "gfx/menu/nzp_warehouse2.png",
+      "gfx/lscreen/nzp_warehouse.png",
+      "gfx/lscreen/nzp_warehouse2.png",
+      "gfx/env/warehouseft.png",
+      "gfx/env/warehousedn.png",
+      "gfx/env/warehousebk.png",
+      "gfx/env/warehouseup.png",
+      "gfx/env/warehouself.png",
+      "gfx/env/warehousert.png",
+      "maps/nzp_warehouse2.mb2",
+      "maps/nzp_warehouse.way",
+      "maps/nzp_warehouse2.way",
+      "maps/nzp_warehouse.bsp",
+      "maps/nzp_warehouse2.txt",
+      "maps/nzp_warehouse2.nsz",
+      "maps/nzp_warehouse.mb2",
+      "maps/nzp_warehouse2.bsp",
+      "maps/nzp_warehouse.txt",
+      "models/props/mystery_debris.mdl_0.pcx",
+      "models/props/mystery_debris.mdl",
+      "models/machines/mystery.mdl",
+      "models/machines/mystery.mdl_0.pcx",
+      "sounds/radios/warehouse/",
+      "sounds/radios/warehouse/end_sequence_radio.wav",
+      "sounds/radios/warehouse/02.wav",
+      "sounds/radios/warehouse/00.wav",
+      "sounds/radios/warehouse/01.wav",
+      "sounds/zombie/",
+      "sounds/zombie/w9.wav",
+      "sounds/zombie/w6.wav",
+      "sounds/zombie/w7.wav",
+      "sounds/zombie/w2.wav",
+      "sounds/zombie/w3.wav",
+      "sounds/zombie/t2.wav",
+      "sounds/zombie/r5.wav",
+      "sounds/zombie/a7.wav",
+      "sounds/zombie/a2.wav",
+      "sounds/zombie/d0.wav",
+      "sounds/zombie/w5.wav",
+      "sounds/zombie/t3.wav",
+      "sounds/zombie/w4.wav",
+      "sounds/zombie/r4.wav",
+      "sounds/zombie/a5.wav",
+      "sounds/zombie/r3.wav",
+      "sounds/zombie/r6.wav",
+      "sounds/zombie/t0.wav",
+      "sounds/zombie/a4.wav",
+      "sounds/zombie/t4.wav",
+      "sounds/zombie/a0.wav",
+      "sounds/zombie/sc0.wav",
+      "sounds/zombie/d5.wav",
+      "sounds/zombie/d1.wav",
+      "sounds/zombie/a3.wav",
+      "sounds/zombie/d3.wav",
+      "sounds/zombie/a1.wav",
+      "sounds/zombie/r0.wav",
+      "sounds/zombie/s0.wav",
+      "sounds/zombie/w8.wav",
+      "sounds/zombie/s1.wav",
+      "sounds/zombie/sc1.wav",
+      "sounds/zombie/r9.wav",
+      "sounds/zombie/r8.wav",
+      "sounds/zombie/a6.wav",
+      "sounds/zombie/d6.wav",
+      "sounds/zombie/d2.wav",
+      "sounds/zombie/r1.wav",
+      "sounds/zombie/w1.wav",
+      "sounds/zombie/d4.wav",
+      "sounds/zombie/t1.wav",
+      "sounds/zombie/w0.wav",
+      "sounds/zombie/r2.wav",
+      "sounds/zombie/r7.wav",
+      "sounds/zombie/d7.wav",
+      "sounds/misc/barricade.wav",
+      "sounds/misc/barricade_destroy.wav"
+    ],
+    "map_source_files": []
+  },
+  "obj": {
+    "exists": true,
+    "path": "C:\\Users\\reube\\Music\\cross_course\\cross_course.obj",
+    "size_bytes": 149258,
+    "size_mb": 0.142,
+    "sha256": "6c121325a371c7e9b66ad86aa027d370f661b55f1e4c3d92733207d5cd2473ec",
+    "vertex_count": 2434,
+    "uv_count": 2434,
+    "normal_count": 0,
+    "face_count": 1180,
+    "invalid_vertex_lines": [],
+    "face_sizes": {
+      "4": 220,
+      "3": 960
+    },
+    "dimensions": [
+      471.0156,
+      72.6875,
+      381.125
+    ],
+    "minimum": [
+      -284.8125,
+      35.0,
+      -166.875
+    ],
+    "maximum": [
+      186.2031,
+      107.6875,
+      214.25
+    ],
+    "objects": {},
+    "groups": {
+      "polygon0": 1,
+      "polygon1": 1,
+      "polygon2": 1,
+      "polygon3": 1,
+      "polygon4": 1,
+      "polygon5": 1,
+      "polygon6": 1,
+      "polygon7": 1,
+      "polygon8": 1,
+      "polygon9": 1,
+      "polygon10": 1,
+      "polygon11": 1,
+      "polygon12": 1,
+      "polygon13": 1,
+      "polygon14": 1,
+      "polygon15": 1,
+      "polygon16": 1,
+      "polygon17": 1,
+      "polygon18": 1,
+      "polygon19": 1,
+      "polygon20": 1,
+      "polygon21": 1,
+      "polygon22": 1,
+      "polygon23": 1
+    },
+    "materials": {
+      "lambert238": 1,
+      "lambert244": 1,
+      "lambert226": 1,
+      "lambert233": 1,
+      "lambert220": 1,
+      "lambert224": 1,
+      "lambert203": 1,
+      "lambert232": 1,
+      "lambert241": 1,
+      "lambert208": 1,
+      "lambert231": 1,
+      "lambert247": 1,
+      "lambert256": 1,
+      "lambert207": 1,
+      "lambert253": 1,
+      "lambert255": 1,
+      "lambert212": 1,
+      "lambert221": 1,
+      "lambert215": 1,
+      "lambert227": 1,
+      "lambert201": 1,
+      "lambert206": 1,
+      "lambert209": 1,
+      "lambert202": 1
+    },
+    "mtllibs": [
+      "cross_course.mtl"
+    ],
+    "mtl_details": [
+      {
+        "file": "C:\\Users\\reube\\Music\\cross_course\\cross_course.mtl",
+        "exists": true,
+        "textures": [
+          {
+            "name": "lambert201.png",
+            "exists": true
+          },
+          {
+            "name": "lambert201.png",
+            "exists": true
+          },
+          {
+            "name": "lambert201.png",
+            "exists": true
+          },
+          {
+            "name": "lambert202.png",
+            "exists": true
+          },
+          {
+            "name": "lambert202.png",
+            "exists": true
+          },
+          {
+            "name": "lambert202.png",
+            "exists": true
+          },
+          {
+            "name": "lambert203.png",
+            "exists": true
+          },
+          {
+            "name": "lambert203.png",
+            "exists": true
+          },
+          {
+            "name": "lambert203.png",
+            "exists": true
+          },
+          {
+            "name": "lambert206.png",
+            "exists": true
+          },
+          {
+            "name": "lambert206.png",
+            "exists": true
+          },
+          {
+            "name": "lambert206.png",
+            "exists": true
+          },
+          {
+            "name": "lambert207.png",
+            "exists": true
+          },
+          {
+            "name": "lambert207.png",
+            "exists": true
+          },
+          {
+            "name": "lambert207.png",
+            "exists": true
+          },
+          {
+            "name": "lambert208.png",
+            "exists": true
+          },
+          {
+            "name": "lambert208.png",
+            "exists": true
+          },
+          {
+            "name": "lambert208.png",
+            "exists": true
+          },
+          {
+            "name": "lambert209.png",
+            "exists": true
+          },
+          {
+            "name": "lambert209.png",
+            "exists": true
+          },
+          {
+            "name": "lambert209.png",
+            "exists": true
+          },
+          {
+            "name": "lambert212.png",
+            "exists": true
+          },
+          {
+            "name": "lambert212.png",
+            "exists": true
+          },
+          {
+            "name": "lambert212.png",
+            "exists": true
+          },
+          {
+            "name": "lambert215.png",
+            "exists": true
+          },
+          {
+            "name": "lambert215.png",
+            "exists": true
+          },
+          {
+            "name": "lambert215.png",
+            "exists": true
+          },
+          {
+            "name": "lambert220.png",
+            "exists": true
+          },
+          {
+            "name": "lambert220.png",
+            "exists": true
+          },
+          {
+            "name": "lambert220.png",
+            "exists": true
+          },
+          {
+            "name": "lambert221.png",
+            "exists": true
+          },
+          {
+            "name": "lambert221.png",
+            "exists": true
+          },
+          {
+            "name": "lambert221.png",
+            "exists": true
+          },
+          {
+            "name": "lambert224.png",
+            "exists": true
+          },
+          {
+            "name": "lambert224.png",
+            "exists": true
+          },
+          {
+            "name": "lambert224.png",
+            "exists": true
+          },
+          {
+            "name": "lambert226.png",
+            "exists": true
+          },
+          {
+            "name": "lambert226.png",
+            "exists": true
+          },
+          {
+            "name": "lambert226.png",
+            "exists": true
+          },
+          {
+            "name": "lambert227.png",
+            "exists": true
+          },
+          {
+            "name": "lambert227.png",
+            "exists": true
+          },
+          {
+            "name": "lambert227.png",
+            "exists": true
+          },
+          {
+            "name": "lambert231.png",
+            "exists": true
+          },
+          {
+            "name": "lambert231.png",
+            "exists": true
+          },
+          {
+            "name": "lambert231.png",
+            "exists": true
+          },
+          {
+            "name": "lambert232.png",
+            "exists": true
+          },
+          {
+            "name": "lambert232.png",
+            "exists": true
+          },
+          {
+            "name": "lambert232.png",
+            "exists": true
+          },
+          {
+            "name": "lambert233.png",
+            "exists": true
+          },
+          {
+            "name": "lambert233.png",
+            "exists": true
+          },
+          {
+            "name": "lambert233.png",
+            "exists": true
+          },
+          {
+            "name": "lambert238.png",
+            "exists": true
+          },
+          {
+            "name": "lambert238.png",
+            "exists": true
+          },
+          {
+            "name": "lambert238.png",
+            "exists": true
+          },
+          {
+            "name": "lambert241.png",
+            "exists": true
+          },
+          {
+            "name": "lambert241.png",
+            "exists": true
+          },
+          {
+            "name": "lambert241.png",
+            "exists": true
+          },
+          {
+            "name": "lambert244.png",
+            "exists": true
+          },
+          {
+            "name": "lambert244.png",
+            "exists": true
+          },
+          {
+            "name": "lambert244.png",
+            "exists": true
+          },
+          {
+            "name": "lambert247.png",
+            "exists": true
+          },
+          {
+            "name": "lambert247.png",
+            "exists": true
+          },
+          {
+            "name": "lambert247.png",
+            "exists": true
+          },
+          {
+            "name": "lambert253.png",
+            "exists": true
+          },
+          {
+            "name": "lambert253.png",
+            "exists": true
+          },
+          {
+            "name": "lambert253.png",
+            "exists": true
+          },
+          {
+            "name": "lambert255.png",
+            "exists": true
+          },
+          {
+            "name": "lambert255.png",
+            "exists": true
+          },
+          {
+            "name": "lambert255.png",
+            "exists": true
+          },
+          {
+            "name": "lambert256.png",
+            "exists": true
+          },
+          {
+            "name": "lambert256.png",
+            "exists": true
+          },
+          {
+            "name": "lambert256.png",
+            "exists": true
+          }
+        ]
+      }
+    ]
+  },
+  "tools": {
+    "path_tools": {
+      "qbsp": null,
+      "hlbsp": null,
+      "bsp": null,
+      "bsp2map": null,
+      "bspinfo": null,
+      "bspguy": null,
+      "ripent": null,
+      "hlcsg": null,
+      "hlvis": null,
+      "hlrad": null,
+      "ericw-tools": null,
+      "wine": null,
+      "git": "C:\\Program Files\\Git\\cmd\\git.EXE",
+      "python": "C:\\Users\\reube\\AppData\\Local\\Programs\\Python\\Python313\\python.EXE"
+    },
+    "discovered_executables": []
+  }
+}

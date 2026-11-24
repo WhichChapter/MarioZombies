@@ -1,0 +1,2337 @@
+NZP WAREHOUSE ENTITY ANALYSIS
+======================================================================
+Total entities: 264
+
+ENTITY COUNTS
+----------------------------------------------------------------------
+misc_model                     38
+place_model                    33
+path_corner                    32
+func_wall                      32
+spawn_zombie                   22
+item_barricade                 20
+light                          16
+weapon_wall                    10
+buy_weapon                     10
+spawn_dog                      10
+func_door_nzp                  7
+zapper_node                    6
+func_illusionary               4
+mystery_box_tp_spot            4
+teddy_spawn                    3
+worldspawn                     1
+perk_double                    1
+power_switch                   1
+perk_juggernog                 1
+perk_revive                    1
+perk_speed                     1
+light_environment              1
+mystery_box                    1
+game_counter                   1
+game_songplay                  1
+zapper_switch                  1
+zapper_light                   1
+info_player_1_spawn            1
+info_player_2_spawn            1
+info_player_3_spawn            1
+info_player_4_spawn            1
+perk_pap                       1
+
+FULL ENTITY PROPERTIES
+======================================================================
+
+ENTITY 1: worldspawn
+--------------------------------------------------
+  compiler: ZHLT v3.4 VL34 (Nov 21 2023)
+  sky: sky
+  _generator: J.A.C.K. 1.1.1262 (vpHalfLife)
+  mapversion: 220
+  classname: worldspawn
+
+ENTITY 2: perk_double
+--------------------------------------------------
+  aistatus: sounds/music/perksacola/doubletap.wav
+  oldmodel: sounds/machines/perk_drink.wav
+  model: models/machines/hl_scale/double_tap_2.mdl
+  weapon2model: models/machines/v_perk.mdl
+  origin: 746 520 240
+  classname: perk_double
+
+ENTITY 3: power_switch
+--------------------------------------------------
+  model: models/machines/hl_scale/power_switch.mdl
+  origin: 1380 -224 354
+  angle: 90
+  classname: power_switch
+
+ENTITY 4: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: 604 -810 364
+  targetname: w16
+  angle: 180
+  classname: item_barricade
+
+ENTITY 5: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: 1590 -504 368
+  targetname: w18
+  angle: 90
+  classname: item_barricade
+
+ENTITY 6: perk_juggernog
+--------------------------------------------------
+  aistatus: sounds/music/perksacola/juggernog.wav
+  weapon2model: models/machines/v_perk.mdl
+  model: models/machines/hl_scale/juggernog.mdl
+  oldmodel: sounds/machines/perk_drink.wav
+  origin: 1736 704 336
+  classname: perk_juggernog
+
+ENTITY 7: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: 1858 833 368
+  targetname: w19
+  angle: 270
+  classname: item_barricade
+
+ENTITY 8: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: 119 675 265
+  targetname: w17
+  angle: 270
+  angles: 0 270 0
+  classname: item_barricade
+
+ENTITY 9: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -132 -866 362
+  targetname: w1
+  angle: 90
+  classname: item_barricade
+
+ENTITY 10: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -388 -866 362
+  targetname: w2
+  angle: 90
+  classname: item_barricade
+
+ENTITY 11: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -720 -866 362
+  targetname: w4
+  angle: 90
+  classname: item_barricade
+
+ENTITY 12: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -976 -866 362
+  targetname: w3
+  angle: 90
+  classname: item_barricade
+
+ENTITY 13: perk_revive
+--------------------------------------------------
+  aistatus: sounds/music/perksacola/quickrevive.wav
+  model: models/machines/hl_scale/quick_revive.mdl
+  oldmodel: sounds/machines/perk_drink.wav
+  weapon2model: models/machines/v_perk.mdl
+  origin: -840 -360 336
+  angle: 270
+  classname: perk_revive
+
+ENTITY 14: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -2092 -866 362
+  targetname: w6
+  angle: 90
+  classname: item_barricade
+
+ENTITY 15: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -1248 -866 362
+  targetname: w5
+  angle: 90
+  classname: item_barricade
+
+ENTITY 16: perk_speed
+--------------------------------------------------
+  aistatus: sounds/music/perksacola/speedcola.wav
+  oldmodel: sounds/machines/perk_drink.wav
+  model: models/machines/hl_scale/speed_cola.mdl
+  weapon2model: models/machines/v_perk.mdl
+  origin: -1284 -312 336
+  angle: 90
+  angles: 0 90 0
+  classname: perk_speed
+
+ENTITY 17: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -2233 -214 368
+  targetname: w7
+  classname: item_barricade
+
+ENTITY 18: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -2028 174 362
+  targetname: w8
+  angle: 270
+  classname: item_barricade
+
+ENTITY 19: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -1312 174 362
+  targetname: w9
+  angle: 270
+  classname: item_barricade
+
+ENTITY 20: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -131 194 362
+  targetname: w13
+  angle: 270
+  classname: item_barricade
+
+ENTITY 21: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -387 194 362
+  targetname: w12
+  angle: 270
+  classname: item_barricade
+
+ENTITY 22: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -719 194 362
+  targetname: w11
+  angle: 270
+  classname: item_barricade
+
+ENTITY 23: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -975 194 362
+  targetname: w10
+  angle: 270
+  classname: item_barricade
+
+ENTITY 24: spawn_zombie
+--------------------------------------------------
+  origin: -186 -1358 338
+  target: p2
+  spawnflags: 0
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 25: path_corner
+--------------------------------------------------
+  origin: -504 -1360 370
+  target: p2_1
+  targetname: p2
+  wait: 0
+  classname: path_corner
+
+ENTITY 26: path_corner
+--------------------------------------------------
+  origin: -504 -1032 370
+  target: w2
+  targetname: p2_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 27: place_model
+--------------------------------------------------
+  origin: -132 -860 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 28: place_model
+--------------------------------------------------
+  origin: -388 -860 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 29: place_model
+--------------------------------------------------
+  origin: -718.709 -858.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 30: place_model
+--------------------------------------------------
+  origin: -974.709 -858.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 31: spawn_zombie
+--------------------------------------------------
+  origin: -930 -1358 338
+  target: p4
+  spawnflags: 0
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 32: path_corner
+--------------------------------------------------
+  origin: -612 -1360 370
+  target: p4_1
+  targetname: p4
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 33: path_corner
+--------------------------------------------------
+  origin: -612 -1032 370
+  target: w4
+  targetname: p4_1
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 34: weapon_wall
+--------------------------------------------------
+  origin: -716 -348 364
+  targetname: ww1
+  sequence: 1
+  classname: weapon_wall
+
+ENTITY 35: buy_weapon
+--------------------------------------------------
+  model: *1
+  target: ww1
+  weapon: 2
+  cost: 200
+  cost2: 100
+  classname: buy_weapon
+
+ENTITY 36: buy_weapon
+--------------------------------------------------
+  model: *2
+  target: ww2
+  weapon: 10
+  cost: 600
+  cost2: 300
+  classname: buy_weapon
+
+ENTITY 37: weapon_wall
+--------------------------------------------------
+  origin: -960 -348 362
+  targetname: ww2
+  sequence: 9
+  angles: 0 0 0
+  classname: weapon_wall
+
+ENTITY 38: func_door_nzp
+--------------------------------------------------
+  model: *3
+  wayTarget: Room2
+  angle: -1
+  target: z5
+  spawnflags: 0
+  speed: 100
+  sounds: 2
+  wait: 4
+  lip: 8
+  dmg: 0
+  health: 0
+  cost: 1000
+  classname: func_door_nzp
+
+ENTITY 39: spawn_zombie
+--------------------------------------------------
+  origin: -135.911 -1297.87 338
+  target: p1
+  spawnflags: 0
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 40: path_corner
+--------------------------------------------------
+  origin: -482 -1296 370
+  target: p1_1
+  targetname: p1
+  wait: 0
+  classname: path_corner
+
+ENTITY 41: path_corner
+--------------------------------------------------
+  origin: -482 -1067.5 370
+  target: w1
+  targetname: p1_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 42: path_corner
+--------------------------------------------------
+  origin: -634 -1067.5 370
+  target: w3
+  targetname: p3_1
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 43: path_corner
+--------------------------------------------------
+  origin: -634 -1296 370
+  target: p3_1
+  targetname: p3
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 44: spawn_zombie
+--------------------------------------------------
+  origin: -980.089 -1297.87 338
+  target: p3
+  spawnflags: 0
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 45: spawn_zombie
+--------------------------------------------------
+  origin: -135.911 -1297.87 338
+  target: p1
+  spawnflags: 0
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 46: path_corner
+--------------------------------------------------
+  origin: -482 -1296 370
+  target: p1_1
+  targetname: p1
+  wait: 0
+  classname: path_corner
+
+ENTITY 47: path_corner
+--------------------------------------------------
+  origin: -482 -1067.5 370
+  target: w1
+  targetname: p1_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 48: path_corner
+--------------------------------------------------
+  origin: -634 -1067.5 370
+  target: w3
+  targetname: p3_1
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 49: path_corner
+--------------------------------------------------
+  origin: -634 -1296 370
+  target: p3_1
+  targetname: p3
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 50: spawn_zombie
+--------------------------------------------------
+  origin: -980.089 -1297.87 338
+  target: p3
+  spawnflags: 0
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 51: spawn_zombie
+--------------------------------------------------
+  origin: -1251.18 -1310.37 338
+  target: p5
+  targetname: z5
+  spawnflags: 1
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 52: path_corner
+--------------------------------------------------
+  origin: -1597.27 -1308.5 370
+  target: p5_1
+  targetname: p5
+  wait: 0
+  classname: path_corner
+
+ENTITY 53: path_corner
+--------------------------------------------------
+  origin: -1597.27 -1080 370
+  target: w5
+  targetname: p5_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 54: path_corner
+--------------------------------------------------
+  origin: -1749.27 -1080 370
+  target: w6
+  targetname: p6_2
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 55: path_corner
+--------------------------------------------------
+  origin: -1749.27 -1308.5 370
+  target: p6_2
+  targetname: p6
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 56: spawn_zombie
+--------------------------------------------------
+  origin: -2095.36 -1310.37 338
+  target: p6
+  targetname: z5
+  spawnflags: 1
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 57: weapon_wall
+--------------------------------------------------
+  origin: -1352 -348 362
+  targetname: ww3
+  sequence: 22
+  classname: weapon_wall
+
+ENTITY 58: buy_weapon
+--------------------------------------------------
+  model: *4
+  target: ww3
+  weapon: 23
+  cost: 1200
+  cost2: 600
+  classname: buy_weapon
+
+ENTITY 59: place_model
+--------------------------------------------------
+  origin: -1246.71 -858.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 60: place_model
+--------------------------------------------------
+  origin: -2090.71 -858.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 61: func_door_nzp
+--------------------------------------------------
+  model: *5
+  angle: -1
+  wayTarget: Outside1
+  target: z6
+  spawnflags: 0
+  speed: 100
+  sounds: 2
+  wait: 4
+  lip: 8
+  dmg: 0
+  health: 0
+  cost: 1250
+  classname: func_door_nzp
+
+ENTITY 62: place_model
+--------------------------------------------------
+  origin: -2230.85 -233.291 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 0 0
+  classname: place_model
+
+ENTITY 63: place_model
+--------------------------------------------------
+  origin: -2045.29 178.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 270 0
+  classname: place_model
+
+ENTITY 64: place_model
+--------------------------------------------------
+  origin: -1329.29 178.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 270 0
+  classname: place_model
+
+ENTITY 65: spawn_zombie
+--------------------------------------------------
+  origin: -2375 -224 337
+  target: w7
+  targetname: z6
+  spawnflags: 3
+  classname: spawn_zombie
+
+ENTITY 66: spawn_zombie
+--------------------------------------------------
+  origin: -2090.36 647.07 338
+  target: p8
+  targetname: z6
+  spawnflags: 1
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 67: path_corner
+--------------------------------------------------
+  origin: -1744.27 645.205 370
+  target: p8_2
+  targetname: p8
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 68: path_corner
+--------------------------------------------------
+  origin: -1744.27 416.705 370
+  target: w8
+  targetname: p8_2
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 69: path_corner
+--------------------------------------------------
+  origin: -1592.27 416.705 370
+  target: w9
+  targetname: p9_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 70: path_corner
+--------------------------------------------------
+  origin: -1592.27 645.205 370
+  target: p9_1
+  targetname: p9
+  wait: 0
+  classname: path_corner
+
+ENTITY 71: spawn_zombie
+--------------------------------------------------
+  origin: -1246.18 647.07 338
+  target: p9
+  targetname: z6
+  spawnflags: 1
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 72: func_door_nzp
+--------------------------------------------------
+  model: *6
+  angle: -1
+  wayTarget: Room3
+  target: z7
+  spawnflags: 0
+  speed: 100
+  sounds: 2
+  wait: 4
+  lip: 8
+  dmg: 0
+  health: 0
+  cost: 1250
+  classname: func_door_nzp
+
+ENTITY 73: place_model
+--------------------------------------------------
+  origin: -974.709 186.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 270 0
+  classname: place_model
+
+ENTITY 74: place_model
+--------------------------------------------------
+  origin: -718.709 186.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 270 0
+  classname: place_model
+
+ENTITY 75: place_model
+--------------------------------------------------
+  origin: -388 188 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 270 0
+  classname: place_model
+
+ENTITY 76: place_model
+--------------------------------------------------
+  origin: -132 188 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 270 0
+  classname: place_model
+
+ENTITY 77: spawn_zombie
+--------------------------------------------------
+  origin: -186 686 338
+  target: p12
+  targetname: z7
+  spawnflags: 1
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 78: spawn_zombie
+--------------------------------------------------
+  origin: -135.911 625.865 338
+  target: p13
+  targetname: z7
+  spawnflags: 1
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 79: path_corner
+--------------------------------------------------
+  origin: -504 688 370
+  target: p12_1
+  targetname: p12
+  wait: 0
+  classname: path_corner
+
+ENTITY 80: path_corner
+--------------------------------------------------
+  origin: -482 624 370
+  target: p13_1
+  targetname: p13
+  wait: 0
+  classname: path_corner
+
+ENTITY 81: path_corner
+--------------------------------------------------
+  origin: -482 395.5 370
+  target: w13
+  targetname: p13_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 82: path_corner
+--------------------------------------------------
+  origin: -504 360 370
+  target: w12
+  targetname: p12_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 83: path_corner
+--------------------------------------------------
+  origin: -612 360 370
+  target: w11
+  targetname: p11_1
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 84: path_corner
+--------------------------------------------------
+  origin: -634 395.5 370
+  target: w10
+  targetname: p10_1
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 85: path_corner
+--------------------------------------------------
+  origin: -634 624 370
+  target: p10_1
+  targetname: p10
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 86: path_corner
+--------------------------------------------------
+  origin: -612 688 370
+  target: p11_1
+  targetname: p11
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 87: spawn_zombie
+--------------------------------------------------
+  origin: -930 686 338
+  target: p11
+  targetname: z7
+  spawnflags: 1
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 88: spawn_zombie
+--------------------------------------------------
+  origin: -980.089 625.865 338
+  target: p10
+  targetname: z7
+  spawnflags: 1
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 89: func_door_nzp
+--------------------------------------------------
+  model: *7
+  zhlt_lightflags: 3
+  angle: -1
+  wayTarget: Outside2
+  target: z8
+  spawnflags: 0
+  speed: 100
+  sounds: 2
+  wait: 4
+  lip: 8
+  dmg: 0
+  health: 0
+  cost: 1250
+  classname: func_door_nzp
+
+ENTITY 90: weapon_wall
+--------------------------------------------------
+  origin: -1940 -332 362
+  targetname: ww6
+  sequence: 4
+  angles: 0 180 0
+  classname: weapon_wall
+
+ENTITY 91: buy_weapon
+--------------------------------------------------
+  model: *8
+  target: ww6
+  weapon: 5
+  cost: 1400
+  cost2: 700
+  classname: buy_weapon
+
+ENTITY 92: weapon_wall
+--------------------------------------------------
+  origin: 388 136 266
+  targetname: ww7
+  sequence: 28
+  angles: 0 90 0
+  classname: weapon_wall
+
+ENTITY 93: buy_weapon
+--------------------------------------------------
+  model: *9
+  target: ww7
+  weapon: 54
+  cost: 1200
+  cost2: 600
+  classname: buy_weapon
+
+ENTITY 94: spawn_zombie
+--------------------------------------------------
+  origin: 853.089 -808 339
+  target: w16
+  targetname: z8
+  spawnflags: 3
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 95: place_model
+--------------------------------------------------
+  origin: 119 677 211
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 96: spawn_zombie
+--------------------------------------------------
+  origin: 120 771 240
+  targetname: z8
+  target: w17
+  spawnflags: 3
+  angles: 0 270 0
+  classname: spawn_zombie
+
+ENTITY 97: buy_weapon
+--------------------------------------------------
+  model: *10
+  target: ww8
+  weapon: 15
+  cost: 1000
+  cost2: 500
+  classname: buy_weapon
+
+ENTITY 98: weapon_wall
+--------------------------------------------------
+  origin: 1884 -336 363
+  targetname: ww8
+  sequence: 14
+  angles: 0 180 0
+  classname: weapon_wall
+
+ENTITY 99: func_door_nzp
+--------------------------------------------------
+  model: *11
+  zhlt_lightflags: 3
+  wayTarget: BoxRoom
+  angle: -1
+  target: z10
+  spawnflags: 0
+  speed: 100
+  sounds: 2
+  wait: 4
+  lip: 8
+  dmg: 0
+  health: 0
+  cost: 1250
+  classname: func_door_nzp
+
+ENTITY 100: spawn_zombie
+--------------------------------------------------
+  origin: 1588 -612 340
+  target: w18
+  targetname: z10
+  spawnflags: 3
+  angles: 0 90 0
+  classname: spawn_zombie
+
+ENTITY 101: spawn_zombie
+--------------------------------------------------
+  origin: 1860 940 340
+  target: w19
+  targetname: z10
+  spawnflags: 3
+  angles: 0 270 0
+  classname: spawn_zombie
+
+ENTITY 102: light
+--------------------------------------------------
+  origin: -228 -600 416
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 103: light
+--------------------------------------------------
+  origin: -936 -584 416
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 104: place_model
+--------------------------------------------------
+  origin: -228 -600 472
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 105: place_model
+--------------------------------------------------
+  origin: -936 -584 472
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 106: light_environment
+--------------------------------------------------
+  origin: 482 30.8038 550.072
+  _light: 39 41 118 125
+  angles: 30 -90 0
+  classname: light_environment
+
+ENTITY 107: func_illusionary
+--------------------------------------------------
+  model: *12
+  classname: func_illusionary
+
+ENTITY 108: func_illusionary
+--------------------------------------------------
+  model: *13
+  classname: func_illusionary
+
+ENTITY 109: func_door_nzp
+--------------------------------------------------
+  model: *14
+  angle: -1
+  wayTarget: Power1Door
+  spawnflags: 64
+  speed: 100
+  sounds: 2
+  wait: 4
+  lip: 8
+  classname: func_door_nzp
+
+ENTITY 110: func_door_nzp
+--------------------------------------------------
+  model: *15
+  zhlt_lightflags: 3
+  angle: -1
+  wayTarget: Power2Door
+  spawnflags: 64
+  speed: 100
+  sounds: 2
+  wait: 4
+  lip: 8
+  classname: func_door_nzp
+
+ENTITY 111: func_illusionary
+--------------------------------------------------
+  model: *16
+  classname: func_illusionary
+
+ENTITY 112: light
+--------------------------------------------------
+  origin: -1228 -600 416
+  _light: 255 255 255 200
+  wait: 1
+  classname: light
+
+ENTITY 113: place_model
+--------------------------------------------------
+  origin: -1228 -600 472
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 114: light
+--------------------------------------------------
+  origin: -2132 -600 416
+  _light: 255 255 255 200
+  wait: 1
+  classname: light
+
+ENTITY 115: place_model
+--------------------------------------------------
+  origin: -2132 -600 472
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 116: light
+--------------------------------------------------
+  origin: -228 -72 416
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 117: place_model
+--------------------------------------------------
+  origin: -228 -72 472
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 118: light
+--------------------------------------------------
+  origin: -932 -72 416
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 119: place_model
+--------------------------------------------------
+  origin: -932 -72 472
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 120: light
+--------------------------------------------------
+  origin: -2028 -232 384
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 121: place_model
+--------------------------------------------------
+  origin: -2028 -232 440
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 122: light
+--------------------------------------------------
+  origin: -1852 -232 384
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 123: place_model
+--------------------------------------------------
+  origin: -1852 -232 440
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 124: place_model
+--------------------------------------------------
+  origin: -1664 512 304
+  sequence: 0
+  skin: 0
+  angles: 0 180 0
+  model: models/props/lamp_oil.mdl
+  classname: place_model
+
+ENTITY 125: light
+--------------------------------------------------
+  origin: -1664 512.5 314
+  _light: 255 255 128 125
+  wait: 1
+  style: 3
+  classname: light
+
+ENTITY 126: light
+--------------------------------------------------
+  origin: 1888 624 400
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 127: place_model
+--------------------------------------------------
+  origin: 1888 624 456
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 128: light
+--------------------------------------------------
+  origin: 1584 -456 400
+  _light: 255 255 255 200
+  wait: 1
+  style: 0
+  classname: light
+
+ENTITY 129: place_model
+--------------------------------------------------
+  origin: 1584 -456 456
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 130: place_model
+--------------------------------------------------
+  origin: -1294.71 181.153 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 131: place_model
+--------------------------------------------------
+  origin: -2006.71 181.153 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 132: place_model
+--------------------------------------------------
+  origin: -2233.15 -190.709 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 180 0
+  classname: place_model
+
+ENTITY 133: func_wall
+--------------------------------------------------
+  model: *17
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 134: func_wall
+--------------------------------------------------
+  model: *18
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 135: func_wall
+--------------------------------------------------
+  model: *19
+  classname: func_wall
+
+ENTITY 136: func_wall
+--------------------------------------------------
+  model: *20
+  classname: func_wall
+
+ENTITY 137: func_wall
+--------------------------------------------------
+  model: *21
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 138: func_wall
+--------------------------------------------------
+  model: *22
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 139: func_wall
+--------------------------------------------------
+  model: *23
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 140: func_wall
+--------------------------------------------------
+  model: *24
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 141: func_wall
+--------------------------------------------------
+  model: *25
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 142: func_wall
+--------------------------------------------------
+  model: *26
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 143: func_wall
+--------------------------------------------------
+  model: *27
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 144: func_wall
+--------------------------------------------------
+  model: *28
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 145: func_wall
+--------------------------------------------------
+  model: *29
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 146: func_wall
+--------------------------------------------------
+  model: *30
+  _tb_group: 2
+  classname: func_wall
+
+ENTITY 147: mystery_box
+--------------------------------------------------
+  _tb_group: 2
+  origin: 1976 -40 326
+  angle: 270
+  classname: mystery_box
+
+ENTITY 148: func_wall
+--------------------------------------------------
+  model: *31
+  _tb_group: 4
+  classname: func_wall
+
+ENTITY 149: mystery_box_tp_spot
+--------------------------------------------------
+  _tb_group: 4
+  origin: -1352 -600 326
+  angle: 90
+  classname: mystery_box_tp_spot
+
+ENTITY 150: func_wall
+--------------------------------------------------
+  model: *32
+  _tb_group: 5
+  classname: func_wall
+
+ENTITY 151: mystery_box_tp_spot
+--------------------------------------------------
+  _tb_group: 5
+  origin: -1938 -44 326
+  angle: 180
+  classname: mystery_box_tp_spot
+
+ENTITY 152: teddy_spawn
+--------------------------------------------------
+  noise: sounds/pu/pickup.wav
+  target: song_counter
+  angle: 315
+  origin: 632 -556 418
+  classname: teddy_spawn
+
+ENTITY 153: teddy_spawn
+--------------------------------------------------
+  noise: sounds/pu/pickup.wav
+  target: song_counter
+  angle: 180
+  origin: -1377.41 -658.586 410
+  classname: teddy_spawn
+
+ENTITY 154: game_counter
+--------------------------------------------------
+  killtarget: pap_door
+  target: song_play
+  targetname: song_counter
+  health: 3
+  origin: -252 -790 330
+  classname: game_counter
+
+ENTITY 155: game_songplay
+--------------------------------------------------
+  cost: 94
+  aistatus: surface_tension
+  targetname: song_play
+  origin: -254 -780 358
+  classname: game_songplay
+
+ENTITY 156: buy_weapon
+--------------------------------------------------
+  model: *33
+  target: ww9
+  weapon: 27
+  cost: 1000
+  classname: buy_weapon
+
+ENTITY 157: weapon_wall
+--------------------------------------------------
+  angle: 180
+  origin: 320 -888 364
+  targetname: ww9
+  sequence: 26
+  classname: weapon_wall
+
+ENTITY 158: zapper_switch
+--------------------------------------------------
+  spawnflags: 1
+  zappername: zap_power
+  model: models/machines/hl_scale/zapper/z_switch.mdl
+  origin: 1452 80 360
+  classname: zapper_switch
+
+ENTITY 159: zapper_light
+--------------------------------------------------
+  zappername: zap_power
+  model: models/machines/hl_scale/zapper/z_light.mdl
+  origin: 1452 -40 436
+  classname: zapper_light
+
+ENTITY 160: zapper_node
+--------------------------------------------------
+  model: models/machines/hl_scale/zapper/z_zap.mdl
+  targetname: zp1_1
+  target: zp1_0
+  zappername: zap_power
+  origin: 1458 -100 304
+  classname: zapper_node
+
+ENTITY 161: zapper_node
+--------------------------------------------------
+  model: models/machines/hl_scale/zapper/z_zap.mdl
+  target: zp2_0
+  targetname: zp2_1
+  zappername: zap_power
+  origin: 1458 -40 304
+  classname: zapper_node
+
+ENTITY 162: zapper_node
+--------------------------------------------------
+  model: models/machines/hl_scale/zapper/z_zap.mdl
+  target: zp2_1
+  targetname: zp2_0
+  zappername: zap_power
+  angles: 0 0 180
+  origin: 1458 -40 420
+  classname: zapper_node
+
+ENTITY 163: zapper_node
+--------------------------------------------------
+  model: models/machines/hl_scale/zapper/z_zap.mdl
+  target: zp1_1
+  zappername: zap_power
+  targetname: zp1_0
+  angles: 0 0 180
+  origin: 1458 -100 420
+  classname: zapper_node
+
+ENTITY 164: zapper_node
+--------------------------------------------------
+  model: models/machines/hl_scale/zapper/z_zap.mdl
+  target: zp3_1
+  targetname: zp3_0
+  zappername: zap_power
+  angles: 0 0 180
+  origin: 1458 20 420
+  classname: zapper_node
+
+ENTITY 165: zapper_node
+--------------------------------------------------
+  model: models/machines/hl_scale/zapper/z_zap.mdl
+  target: zp3_0
+  targetname: zp3_1
+  zappername: zap_power
+  origin: 1458 20 304
+  classname: zapper_node
+
+ENTITY 166: func_wall
+--------------------------------------------------
+  model: *34
+  _tb_group: 9
+  classname: func_wall
+
+ENTITY 167: mystery_box_tp_spot
+--------------------------------------------------
+  _tb_group: 9
+  origin: 906 24 230
+  angle: 270
+  classname: mystery_box_tp_spot
+
+ENTITY 168: info_player_1_spawn
+--------------------------------------------------
+  angle: 270
+  origin: -740 -616 336
+  classname: info_player_1_spawn
+
+ENTITY 169: info_player_2_spawn
+--------------------------------------------------
+  angle: 270
+  origin: -648 -616 336
+  classname: info_player_2_spawn
+
+ENTITY 170: info_player_3_spawn
+--------------------------------------------------
+  angle: 285
+  origin: -740 -700 336
+  classname: info_player_3_spawn
+
+ENTITY 171: info_player_4_spawn
+--------------------------------------------------
+  angle: 270
+  origin: -836 -616 336
+  classname: info_player_4_spawn
+
+ENTITY 172: spawn_dog
+--------------------------------------------------
+  angle: 120
+  origin: -56 -796 336
+  classname: spawn_dog
+
+ENTITY 173: spawn_dog
+--------------------------------------------------
+  angle: 315
+  origin: -1064 -388 336
+  classname: spawn_dog
+
+ENTITY 174: spawn_dog
+--------------------------------------------------
+  angle: 15
+  targetname: z5
+  spawnflags: 1
+  origin: -2188 -612 336
+  classname: spawn_dog
+
+ENTITY 175: spawn_dog
+--------------------------------------------------
+  spawnflags: 1
+  targetname: z5
+  angle: 225
+  origin: -1248 -396 336
+  classname: spawn_dog
+
+ENTITY 176: spawn_dog
+--------------------------------------------------
+  spawnflags: 1
+  targetname: z6
+  angle: 270
+  origin: -1660 -68 336
+  classname: spawn_dog
+
+ENTITY 177: spawn_dog
+--------------------------------------------------
+  targetname: z7
+  spawnflags: 1
+  angle: 135
+  origin: -452 -280 336
+  classname: spawn_dog
+
+ENTITY 178: spawn_dog
+--------------------------------------------------
+  targetname: z7
+  spawnflags: 1
+  angle: 270
+  origin: -568 108 336
+  classname: spawn_dog
+
+ENTITY 179: spawn_dog
+--------------------------------------------------
+  spawnflags: 1
+  targetname: z8
+  angle: 135
+  origin: 540 -152 240
+  classname: spawn_dog
+
+ENTITY 180: spawn_dog
+--------------------------------------------------
+  targetname: z8
+  spawnflags: 1
+  angle: 135
+  origin: 888 -680 240
+  classname: spawn_dog
+
+ENTITY 181: spawn_dog
+--------------------------------------------------
+  targetname: z10
+  spawnflags: 1
+  origin: 1264 -4 336
+  classname: spawn_dog
+
+ENTITY 182: func_wall
+--------------------------------------------------
+  model: *35
+  classname: func_wall
+
+ENTITY 183: teddy_spawn
+--------------------------------------------------
+  noise: sounds/pu/pickup.wav
+  target: song_counter
+  angles: 90 0 0
+  origin: -856 18 384
+  classname: teddy_spawn
+
+ENTITY 184: func_wall
+--------------------------------------------------
+  model: *36
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 185: func_wall
+--------------------------------------------------
+  model: *37
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 186: func_wall
+--------------------------------------------------
+  model: *38
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 187: func_wall
+--------------------------------------------------
+  model: *39
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 188: func_wall
+--------------------------------------------------
+  model: *40
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 189: light
+--------------------------------------------------
+  origin: -1604 -600 416
+  _light: 255 255 255 200
+  wait: 1
+  classname: light
+
+ENTITY 190: place_model
+--------------------------------------------------
+  origin: -1604 -600 472
+  _light: 255 255 128 200
+  style: 0
+  wait: 1
+  frame: 111
+  model: models/props/lamp_ndu.mdl
+  sequence: 0
+  skin: 0
+  classname: place_model
+
+ENTITY 191: place_model
+--------------------------------------------------
+  origin: -1502.71 -858.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 192: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -1504 -866 362
+  targetname: w20
+  angle: 90
+  classname: item_barricade
+
+ENTITY 193: place_model
+--------------------------------------------------
+  origin: -1838.71 -858.847 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 90 0
+  classname: place_model
+
+ENTITY 194: item_barricade
+--------------------------------------------------
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -1840 -866 362
+  targetname: w21
+  angle: 90
+  classname: item_barricade
+
+ENTITY 195: path_corner
+--------------------------------------------------
+  origin: -1637.27 -1040 370
+  target: w20
+  targetname: p14_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 196: path_corner
+--------------------------------------------------
+  origin: -1705.27 -1040 370
+  target: w21
+  targetname: p15_1
+  wait: 0
+  classname: path_corner
+
+ENTITY 197: path_corner
+--------------------------------------------------
+  origin: -1629.27 -1348.5 370
+  target: p14_1
+  targetname: p14
+  wait: 0
+  classname: path_corner
+
+ENTITY 198: path_corner
+--------------------------------------------------
+  origin: -1717.27 -1348.5 370
+  target: p15_1
+  targetname: p15
+  wait: 0
+  angles: 0 180 0
+  classname: path_corner
+
+ENTITY 199: spawn_zombie
+--------------------------------------------------
+  origin: -2031.36 -1358.37 338
+  target: p15
+  targetname: z5
+  spawnflags: 1
+  angles: 0 0 0
+  classname: spawn_zombie
+
+ENTITY 200: spawn_zombie
+--------------------------------------------------
+  origin: -1331.18 -1354.37 338
+  target: p14
+  targetname: z5
+  spawnflags: 1
+  angles: 0 180 0
+  classname: spawn_zombie
+
+ENTITY 201: item_barricade
+--------------------------------------------------
+  angle: 0
+  oldmodel: sounds/misc/barricade.wav
+  aistatus: sounds/misc/barricade_destroy.wav
+  model: models/misc/window.mdl
+  origin: -2233 54 368
+  targetname: w22
+  classname: item_barricade
+
+ENTITY 202: place_model
+--------------------------------------------------
+  origin: -2233.15 30.709 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 -180 0
+  classname: place_model
+
+ENTITY 203: place_model
+--------------------------------------------------
+  origin: -2230.85 73.291 304.619
+  model: models/props/sandbags.mdl
+  sequence: 0
+  skin: 0
+  angles: 0 0 0
+  classname: place_model
+
+ENTITY 204: func_wall
+--------------------------------------------------
+  model: *41
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 205: spawn_zombie
+--------------------------------------------------
+  origin: -2375 52 337
+  target: w22
+  targetname: z6
+  spawnflags: 3
+  classname: spawn_zombie
+
+ENTITY 206: func_wall
+--------------------------------------------------
+  model: *42
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 207: func_wall
+--------------------------------------------------
+  model: *43
+  _tb_group: 10
+  classname: func_wall
+
+ENTITY 208: mystery_box_tp_spot
+--------------------------------------------------
+  _tb_group: 10
+  origin: -754 -304 326
+  angle: 180
+  classname: mystery_box_tp_spot
+
+ENTITY 209: func_wall
+--------------------------------------------------
+  model: *44
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 210: func_wall
+--------------------------------------------------
+  model: *45
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 211: func_wall
+--------------------------------------------------
+  model: *46
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 212: weapon_wall
+--------------------------------------------------
+  origin: -338 -144 364
+  targetname: ww10
+  sequence: 7
+  classname: weapon_wall
+
+ENTITY 213: buy_weapon
+--------------------------------------------------
+  model: *47
+  target: ww10
+  weapon: 8
+  cost: 1200
+  cost2: 600
+  classname: buy_weapon
+
+ENTITY 214: buy_weapon
+--------------------------------------------------
+  model: *48
+  target: ww8
+  weapon: 15
+  cost: 1000
+  cost2: 500
+  classname: buy_weapon
+
+ENTITY 215: weapon_wall
+--------------------------------------------------
+  origin: 1884 -336 363
+  targetname: ww8
+  sequence: 14
+  angles: 0 180 0
+  classname: weapon_wall
+
+ENTITY 216: buy_weapon
+--------------------------------------------------
+  model: *49
+  cost2: 250
+  target: ww11
+  weapon: 26
+  cost: 250
+  classname: buy_weapon
+
+ENTITY 217: weapon_wall
+--------------------------------------------------
+  origin: 1688 -40 363
+  targetname: ww11
+  sequence: 25
+  angles: 0 90 0
+  classname: weapon_wall
+
+ENTITY 218: func_wall
+--------------------------------------------------
+  model: *50
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 219: func_wall
+--------------------------------------------------
+  model: *51
+  zhlt_lightflags: 3
+  classname: func_wall
+
+ENTITY 220: func_wall
+--------------------------------------------------
+  model: *52
+  targetname: pap_door
+  classname: func_wall
+
+ENTITY 221: perk_pap
+--------------------------------------------------
+  spawnflags: 3
+  skin: 0
+  oldz: 30
+  oldorigin: 0 0 2
+  oldmodel: sounds/machines/packapunch/upgrade.wav
+  model: models/machines/hl_scale/pap/p_machine.mdl
+  door_model_name: models/machines/hl_scale/pap/p_flag.mdl
+  cost: 5000
+  box3: -18 -31.7 18
+  box2: 17 0 6
+  box1: 7.5 0.1 6.0
+  angle: 180
+  origin: 1676 388 192
+  classname: perk_pap
+
+ENTITY 222: light
+--------------------------------------------------
+  _light: 100 0 0 150
+  origin: 1688 424 288
+  classname: light
+
+ENTITY 223: func_illusionary
+--------------------------------------------------
+  model: *53
+  classname: func_illusionary
+
+ENTITY 224: light
+--------------------------------------------------
+  _light: 0 100 0 150
+  origin: 1688 348 288
+  classname: light
+
+ENTITY 225: light
+--------------------------------------------------
+  _light: 115
+  origin: 1672 384 260
+  classname: light
+
+ENTITY 226: light
+--------------------------------------------------
+  origin: 120 664 248
+  _light: 255 255 255 75
+  wait: 1
+  classname: light
+
+ENTITY 227: misc_model
+--------------------------------------------------
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -1780 -564 376
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 228: misc_model
+--------------------------------------------------
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -1748 -636 376
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 229: misc_model
+--------------------------------------------------
+  angles: 75 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -1668 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 230: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -1376 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 231: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -1164 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 232: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -1968 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 233: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -2196 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 234: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -1080 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 235: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -852 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 236: misc_model
+--------------------------------------------------
+  angles: 75 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -552 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 237: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -260 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 238: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -48 -860 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 239: misc_model
+--------------------------------------------------
+  angles: 0 60 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -467.177 -579.856 376
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 240: misc_model
+--------------------------------------------------
+  angles: 0 60 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -388.823 -588.144 376
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 241: misc_model
+--------------------------------------------------
+  angles: 0 105 0
+  model: models/props/derped/tractor.mdl
+  origin: -2432 560 340
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 242: misc_model
+--------------------------------------------------
+  skin: 1
+  angles: 0 75 0
+  model: models/props/derped/tractor.mdl
+  origin: -2300 556 340
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 243: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -2204 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 244: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -2152 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 245: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -2104 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 246: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -2020 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 247: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -1920 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 248: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -1800 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 249: misc_model
+--------------------------------------------------
+  angles: 0 180 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -1544 460 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 250: misc_model
+--------------------------------------------------
+  angles: 0 180 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -1420 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 251: misc_model
+--------------------------------------------------
+  angles: 0 180 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -1328 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 252: misc_model
+--------------------------------------------------
+  angles: 0 180 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -1196 452 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 253: misc_model
+--------------------------------------------------
+  angles: 0 180 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -1256 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 254: misc_model
+--------------------------------------------------
+  angles: 0 180 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -1144 456 428
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 255: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -1080 188 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 256: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: -852 188 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 257: misc_model
+--------------------------------------------------
+  angles: 75 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: -552 188 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 258: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -260 188 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 259: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_3.mdl
+  origin: -48 188 344
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 260: misc_model
+--------------------------------------------------
+  skin: 1
+  angles: -25 -74 -173
+  model: models/props/derped/tractor.mdl
+  origin: 644 56 388
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 261: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: 1092 136 364
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 262: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_2.mdl
+  origin: 1092 64 360
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 263: misc_model
+--------------------------------------------------
+  angles: 0 0 0
+  model: models/props/derped/pumpkin_1.mdl
+  origin: 572 -868 312
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model
+
+ENTITY 264: misc_model
+--------------------------------------------------
+  angles: -68 154 -117
+  model: models/props/derped/pumpkin_2.mdl
+  origin: 1684 -36 424
+  spawnflags: 0
+  month_limiter: 10
+  gamemode_limiter: 6
+  classname: misc_model

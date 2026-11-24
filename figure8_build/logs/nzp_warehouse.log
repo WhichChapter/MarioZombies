@@ -1,0 +1,103 @@
+
+================================================================
+ hltools 1.26.0 - compile  (22 november 2026, a894793)
+ https://github.com/speedrun-16/hltools
+================================================================
+
+
+settings (changed from default):
+  threads                12                 (default: varies)
+  wadtextures            off                (default: off)
+  clip type              simple             (default: simple)
+  full vis               off                (default: on)
+  fast vis               on                 (default: off)
+  oversampling (-extra)  off                (default: off)
+  bounces                8                  (default: 8)
+  gpu lighting           off                (default: off)
+  soft shadow samples    16                 (default: 16)
+  ambient occlusion      off                (default: off)
+
+processing
+  building brushes          [####################] 100%      0.04s
+
+building bsp tree
+  hull 0 (visual)               331 nodes      0.01s
+  wrote portal file 'nzp_warehouse.prt'
+  hull 1 (standing)             720 nodes      0.05s
+  hull 2 (large)                703 nodes      0.04s
+  hull 3 (crouched)             718 nodes      0.04s
+
+  !!! WARNING: BSP LEAF CONTENT CONFLICTS
+
+    found    7 affected BSP leaves across 1 brush model
+    issue    structural boundary faces disagree on the content of each listed leaf
+    result   the highest ranked boundary content was assigned to each leaf
+    action   inspect brushwork touching the listed bounds for tiny gaps or geometry near compiler tolerances
+
+    model 0  worldspawn
+      hull 2  EMPTY / SOLID -> SOLID
+      bounds  (354, -509, 57) -> (453, -463, 60)
+      hull 2  EMPTY / SOLID -> SOLID
+      bounds  (343, -509, 58) -> (409, -463, 60)
+      hull 2  EMPTY / SOLID -> SOLID
+      bounds  (275, -417, 156) -> (306, -390, 157)
+      hull 2  EMPTY / SOLID -> SOLID
+      bounds  (156, -480, 62) -> (237, -368, 64)
+      hull 2  EMPTY / SOLID -> SOLID
+      bounds  (334, -535, 58) -> (409, -463, 60)
+      hull 3  EMPTY / SOLID -> SOLID
+      bounds  (596, -272, 122) -> (618, -202, 125)
+      hull 3  EMPTY / SOLID -> SOLID
+      bounds  (21, -18, 41) -> (156, -18, 101)
+
+  The bounds describe the affected BSP leaf and may not locate the exact brush defect.
+  reduced 1945 clipnodes to 1841
+  reduced 19 texinfos to 18
+  reduced 7 texdatas to 7 (147156 bytes to 147156)
+  reduced 5374 planes to 1124
+  increased 1841 clipnodes to 1858
+  173 portal leafs, 800 portals
+
+computing visibility
+  computing base visibility [####################] 100%      0.01s
+  visdata 3.7 KB (compressed from 3.7 KB)
+  average leafs visible: 162
+
+  textures       7 referenced
+  world          447 faces, 2,389 patches
+light at (0.000000,0.000000,420.839996) has bad or missing '_light' value : ''
+  lights         0 direct (0 fast), 1 style
+
+
+lighting
+  placing light samples     [####################] 100%      0.00s
+  building direct lighting  [####################] 100%      0.03s
+  triangulating patches     [####################] 100%      0.01s
+  applying bounced light    [####################] 100%      0.01s
+  finalizing lightmaps      [####################] 100%      0.00s
+
+bsp usage (full chart):
+  models                    1 / 512        ( 0.2%)
+  planes                1,124 / 32,768     ( 3.4%)
+  vertexes                438 / 65,535     ( 0.7%)
+  nodes                   291 / 32,767     ( 0.9%)
+  texinfos                 18 / 32,767     ( 0.1%)
+  faces                   447 / 65,535     ( 0.7%)
+  * worldfaces            447 / 32,768     ( 1.4%)
+  clipnodes             1,858 / 32,767     ( 5.7%)
+  leaves                  174 / 32,760     ( 0.5%)
+  * worldleaves           173 / 8,192      ( 2.1%)
+  marksurfaces            684 / 65,535     ( 1.0%)
+  surfedges             1,723 / 512,000    ( 0.3%)
+  edges                   883 / 256,000    ( 0.3%)
+  texdata            143.7 KB / 32.00 MB   ( 0.4%)
+  lightdata           1 bytes / 48.00 MB   ( 0.0%)
+  visdata              3.7 KB / 8.00 MB    ( 0.0%)
+  entdata           293 bytes / 2.00 MB    ( 0.0%)
+  * lightmap atlas          3 / 64         ( 4.7%)
+  bsp data         221.9 KB (total)
+
+warnings (1):
+  ! 7 BSP leaf content conflicts found across 1 brush model
+
+done (with warnings) in 0.4s (0.41s) -- 1 warning
